@@ -1,3 +1,6 @@
 Library/*
 Build/*
 .vsconfig
+Temp/*
+Logs/*
+.vs/*
