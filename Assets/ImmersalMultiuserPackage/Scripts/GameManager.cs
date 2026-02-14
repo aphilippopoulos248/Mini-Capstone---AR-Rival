@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     private void OnPlayerJoined()
     {
         multiuserUI.SetActive(false);
-        //dragonSpawner.SpawnDragon();
+        dragonSpawner.SpawnDragon();
     }
 
     private void Update()
