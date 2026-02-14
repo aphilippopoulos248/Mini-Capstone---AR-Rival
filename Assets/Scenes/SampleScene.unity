@@ -1573,6 +1573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ImmersalSDK
       objectReference: {fileID: 0}
+    - target: {fileID: 1434895627878410, guid: 2c6deb7afc7d34561941b1429c48ffaf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4682760393691964, guid: 2c6deb7afc7d34561941b1429c48ffaf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.45419
@@ -1615,7 +1619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4876485604010972054, guid: 2c6deb7afc7d34561941b1429c48ffaf, type: 3}
       propertyPath: developerToken
-      value: afbbf64164c3a7156ea53bc37f76ffee81739f1baf9bd70018af4b9a6265b88c
+      value: f948513f661d6c11b4ce053100ae6fed0374209628fe9ce2a5966af2e78d5bf6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
