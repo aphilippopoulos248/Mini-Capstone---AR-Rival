@@ -6,14 +6,16 @@ using UnityEngine;
 public class ConnectionManager : MonoBehaviour
 {
     [SerializeField] private TMP_InputField inputField;
-
+    private bool isConnected = false;
     public void CreateRoom()
     {
-        NetworkManager.Instance.CreateSession(inputField.text);
+        if (!isConnected) NetworkManager.Instance.CreateSession(inputField.text);
+        isConnected = true;
     }
 
     public void JoinRoom()
     {
-        NetworkManager.Instance.JoinSession(inputField.text);
+        if (!isConnected) NetworkManager.Instance.JoinSession(inputField.text);
+        isConnected = true;
     }
 }
