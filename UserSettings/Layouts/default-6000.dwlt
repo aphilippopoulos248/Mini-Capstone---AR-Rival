@@ -706,7 +706,7 @@ MonoBehaviour:
       m_Data: 48844
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48836
+    - m_Data: 49986
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -739,7 +739,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48836
+    - m_Data: 49986
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1607,7 +1607,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1296, y: 855.5}
+  m_TargetSize: {x: 864, y: 570.3333}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1622,10 +1622,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -432
-    m_HBaseRangeMax: 432
-    m_VBaseRangeMin: -285.1667
-    m_VBaseRangeMax: 285.1667
+    m_HBaseRangeMin: -288
+    m_HBaseRangeMax: 288
+    m_VBaseRangeMin: -190.11111
+    m_VBaseRangeMax: 190.11111
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1658,7 +1658,7 @@ MonoBehaviour:
       width: 576
       height: 380.2222
     m_MinimalGUI: 1
-  m_defaultScale: 0.9999999
+  m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1296, y: 887}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
