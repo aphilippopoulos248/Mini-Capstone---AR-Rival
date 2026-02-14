@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   debugText: {fileID: 1134692850}
   multiuserUI: {fileID: 186010016}
-  dragonSpawner: {fileID: 0}
+  dragonSpawner: {fileID: 1101009147}
 --- !u!43 &145474718
 Mesh:
   m_ObjectHideFlags: 0
@@ -1018,6 +1018,17 @@ MonoBehaviour:
   m_DataProcessors:
   - {fileID: 2072497616}
   - {fileID: 1347111291}
+--- !u!114 &459626297 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8872537703583961186, guid: 26cd1384cca5dc34ca8f3d1ad908cd0b, type: 3}
+  m_PrefabInstance: {fileID: 362914218}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &487980223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,6 +1394,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1101009146}
   - component: {fileID: 1101009145}
+  - component: {fileID: 1101009147}
+  - component: {fileID: 1101009148}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -1422,6 +1435,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 383454150}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1101009147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101009144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48db7cce5a092bc4fa05ab11c79e0f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkDragonSpawner
+  dragons:
+  - {fileID: 7834892487464022543, guid: 5dff46cf7c991e943b24831ef9806ae8, type: 3}
+  - {fileID: 5252975553637722278, guid: b2b58db5f292298449c8e72dd53eaf0e, type: 3}
+  - {fileID: 82086526508875439, guid: 5e44c8239a5c2674a9329034452465cf, type: 3}
+  dragonController: {fileID: 1101009148}
+--- !u!114 &1101009148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101009144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3950735f79ac8104ba922c952c021ab2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragonController
+  speed: 0.1
+  fixedJoystickHorizontal: {fileID: 1694747463}
+  fixedJoystickVertical: {fileID: 459626297}
 --- !u!1 &1103621714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,6 +1871,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1694747463 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6232175024536324668, guid: 26cd1384cca5dc34ca8f3d1ad908cd0b, type: 3}
+  m_PrefabInstance: {fileID: 362914218}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1786406709 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2411217836187043363, guid: 0faea0357f1c7134d9138a4944e4c85b, type: 3}
