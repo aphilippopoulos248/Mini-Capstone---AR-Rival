@@ -1466,9 +1466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NetworkDragonSpawner
   dragons:
-  - {fileID: 7834892487464022543, guid: 5dff46cf7c991e943b24831ef9806ae8, type: 3}
-  - {fileID: 5252975553637722278, guid: b2b58db5f292298449c8e72dd53eaf0e, type: 3}
-  - {fileID: 82086526508875439, guid: 5e44c8239a5c2674a9329034452465cf, type: 3}
+  - {fileID: 8705998063909040526, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
   dragonController: {fileID: 1101009148}
   arRaycastManager: {fileID: 1103621715}
 --- !u!114 &1101009148
