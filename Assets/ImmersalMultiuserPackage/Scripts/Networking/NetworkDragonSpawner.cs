@@ -5,11 +5,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 
 public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
 {
     [SerializeField] private List<GameObject> dragons;
     [SerializeField] private DragonController dragonController;
+    [SerializeField] private ARRaycastManager arRaycastManager;
+
+    private List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     private XRSpace m_XRSpace;
     private Transform cameraTransform;
@@ -35,10 +40,14 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
     {
         if (player == runner.LocalPlayer)
         {
+            Vector3 spawnPosition = GetForwardGroundPosition();
+
             NetworkObject networkDragonObject = NetworkManager.Instance.Runner.Spawn(
                                                 dragons[UnityEngine.Random.Range(0, dragons.Count)],
-                                                cameraTransform.position + cameraTransform.forward * 0.5f,
-                                                Quaternion.identity,
+                                                spawnPosition,
+                                                Quaternion.LookRotation(
+                                                    new Vector3(cameraTransform.forward.x, 0, 
+                                                    cameraTransform.forward.z)),
                                                 NetworkManager.Instance.Runner.LocalPlayer,
                                                 InitializeObjBeforeSpawn);
 
@@ -46,6 +55,17 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
             _spawnedDragon.Add(player, networkDragonObject);
         }
+    }
+    private Vector3 GetForwardGroundPosition()
+    {
+        Ray ray = new Ray(cameraTransform.position, cameraTransform.forward);
+
+        if (arRaycastManager.Raycast(ray, hits, TrackableType.PlaneWithinPolygon))
+        {
+            return hits[0].pose.position;
+        }
+
+        return cameraTransform.position + cameraTransform.forward * 1.5f;
     }
 
     private void InitializeObjBeforeSpawn(NetworkRunner runner, NetworkObject obj)
