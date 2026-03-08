@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "5c843c79-b22b-43b7-becb-696a35818e34",
+            "actions": [
+                {
+                    "name": "Attack",
+                    "type": "PassThrough",
+                    "id": "b1687f59-5bec-4cac-ac5f-81662796c318",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fa07cc91-865d-4cb5-b263-a1c20ffb0227",
+                    "path": "<Touchscreen>/touch0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
