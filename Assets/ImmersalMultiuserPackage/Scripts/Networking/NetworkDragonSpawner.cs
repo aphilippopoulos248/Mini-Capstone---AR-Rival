@@ -42,11 +42,12 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
         {
             Vector3 spawnPosition = GetForwardGroundPosition(); // method to get the position in front of the camera on the ground
             Vector3 lookRotation = new Vector3(cameraTransform.forward.x, 0, cameraTransform.forward.z); // rotation to face the same direction as the camera but only on the horizontal plane
+            Quaternion spawnRotation = Quaternion.LookRotation(lookRotation) * Quaternion.Euler(0f, 180f, 0f);
 
             NetworkObject networkDragonObject = NetworkManager.Instance.Runner.Spawn(
                                                 dragons[UnityEngine.Random.Range(0, dragons.Count)],
                                                 spawnPosition,
-                                                Quaternion.LookRotation(lookRotation),
+                                                spawnRotation,
                                                 NetworkManager.Instance.Runner.LocalPlayer,
                                                 InitializeObjBeforeSpawn);
 

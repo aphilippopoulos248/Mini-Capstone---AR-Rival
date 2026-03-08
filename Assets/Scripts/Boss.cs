@@ -15,9 +15,9 @@ public class Boss : MonoBehaviour
 
     private void Start()
     {
-        healthComponent.TakeDamage(tapDamage);
-        healthComponent.ShowDamageNumber(tapDamage, Color.red);
-        Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
+        //healthComponent.TakeDamage(tapDamage);
+        //healthComponent.ShowDamageNumber(tapDamage, Color.red);
+        //Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
     }
 
     void OnEnable()
