@@ -13,6 +13,13 @@ public class Boss : MonoBehaviour
         actions = new PlayerActions();
     }
 
+    private void Start()
+    {
+        healthComponent.TakeDamage(tapDamage);
+        healthComponent.ShowDamageNumber(tapDamage, Color.red);
+        Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
+    }
+
     void OnEnable()
     {
         actions.Default.Attack.performed += OnAttack;

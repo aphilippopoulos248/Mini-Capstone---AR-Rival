@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
     [SerializeField] private Image healthFillImage;
-    private TMP_Text damageNumber;
+    [SerializeField] private TMP_Text damageNumber;
 
     private float speed = 5f;
     private float targetFillAmount = 1f;
