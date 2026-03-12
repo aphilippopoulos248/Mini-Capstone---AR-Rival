@@ -36,9 +36,9 @@ public class Boss : MonoBehaviour
     {
         Debug.Log("Attacking!");
         
-        //healthComponent.TakeDamage(tapDamage);
-        //healthComponent.ShowDamageNumber(tapDamage, Color.red);
-        //Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
+        healthComponent.TakeDamage(tapDamage);
+        healthComponent.ShowDamageNumber(tapDamage, Color.red);
+        Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
 
         Vector2 screenPosition = Pointer.current.position.ReadValue();
 

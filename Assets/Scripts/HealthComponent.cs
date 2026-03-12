@@ -35,7 +35,7 @@ public class HealthComponent : MonoBehaviour, IHealth
 
     public void Die()
     {
-        Destroy(gameObject);
+        Destroy(gameObject.transform.parent.gameObject);
     }
 
     public float GetHealthPercentage()
