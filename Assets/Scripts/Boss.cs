@@ -35,18 +35,17 @@ public class Boss : MonoBehaviour
     void OnAttack(InputAction.CallbackContext ctx)
     {
         Debug.Log("Attacking!");
-        
-        //healthComponent.TakeDamage(tapDamage);
-        //healthComponent.ShowDamageNumber(tapDamage, Color.red);
-        //Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
 
         Vector2 screenPosition = Pointer.current.position.ReadValue();
 
         Ray ray = Camera.main.ScreenPointToRay(screenPosition);
         RaycastHit hit;
 
+        Debug.DrawRay(ray.origin, ray.direction * 100f, Color.red);
+
         if (Physics.Raycast(ray, out hit))
         {
+            Debug.Log("Boss hit!");
             healthComponent.TakeDamage(tapDamage);
             healthComponent.ShowDamageNumber(tapDamage, Color.red);
             Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
