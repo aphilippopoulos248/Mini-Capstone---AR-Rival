@@ -20,7 +20,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <NoWarn>0169;USG0001</NoWarn>
-    <DefineConstants>UNITY_6000_3_6;UNITY_6000_3;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_6000_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_AUDIO_SCRIPTABLE_PIPELINE;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY_SCREEN_READER;ENABLE_ACCESSIBILITY_SETTINGS;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;PLATFORM_SUPPORTS_INSIGHTS_IDFA;PLATFORM_SUPPORTS_INSIGHTS_DEVICE_INFO;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;UNITY_IPHONE_API;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_INSIGHTS_PLATFORM_SPECIFIC_RESOURCES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_FIREBASE_IDENTIFIERS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;TEXTCORE_FONT_ENGINE_1_6_OR_NEWER;UNITY_XR_ARKIT_LOADER_ENABLED;FUSION_WEAVER;FUSION2;FUSION_2;FUSION_2_0;FUSION_2_0_10;FUSION_2_OR_NEWER;FUSION_2_0_OR_NEWER;FUSION_LOGLEVEL_INFO;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_6000_3_6;UNITY_6000_3;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_6000_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_AUDIO_SCRIPTABLE_PIPELINE;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY_SCREEN_READER;ENABLE_ACCESSIBILITY_SETTINGS;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;PLATFORM_SUPPORTS_INSIGHTS_IDFA;PLATFORM_SUPPORTS_INSIGHTS_DEVICE_INFO;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;UNITY_IPHONE_API;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_INSIGHTS_PLATFORM_SPECIFIC_RESOURCES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_FIREBASE_IDENTIFIERS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;TEXTCORE_FONT_ENGINE_1_6_OR_NEWER;UNITY_XR_ARKIT_LOADER_ENABLED;FUSION_WEAVER;FUSION2;FUSION_2;FUSION_2_0;FUSION_2_0_10;FUSION_2_OR_NEWER;FUSION_2_0_OR_NEWER;FUSION_LOGLEVEL_INFO;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -142,11 +142,11 @@
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\IWebRequest.cs">
       <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\IWebRequest.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSON.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSON.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\UnityLayerOptions.cs">
       <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\UnityLayerOptions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSON.cs">
+      <Link>Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSON.cs</Link>
     </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\FileSource.cs">
       <Link>Runtime\Mapbox\BaseModule\Data\Platform\FileSource.cs</Link>
@@ -292,11 +292,11 @@
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSONObjectVectorLayer.cs">
       <Link>Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSONObjectVectorLayer.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\RawPngRasterTile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\RawPngRasterTile.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\CanonicalTileId.cs">
       <Link>Runtime\Mapbox\BaseModule\Data\Tiles\CanonicalTileId.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\RawPngRasterTile.cs">
+      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\RawPngRasterTile.cs</Link>
     </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryWebgl.cs">
       <Link>Runtime\Mapbox\BaseModule\Telemetry\TelemetryWebgl.cs</Link>
@@ -304,11 +304,11 @@
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\OpenUrlOnButtonClick.cs">
       <Link>Runtime\Mapbox\BaseModule\Utilities\OpenUrlOnButtonClick.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\TileCreator.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\TileCreator.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\DynamicScalingMapInformation.cs">
       <Link>Runtime\Mapbox\BaseModule\Map\DynamicScalingMapInformation.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\TileCreator.cs">
+      <Link>Runtime\Mapbox\BaseModule\Map\TileCreator.cs</Link>
     </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\CompositeLayerModuleScript.cs">
       <Link>Runtime\Mapbox\BaseModule\Unity\CompositeLayerModuleScript.cs</Link>
@@ -436,14 +436,14 @@
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\IObservable.cs">
       <Link>Runtime\Mapbox\BaseModule\Utilities\IObservable.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapBehaviourCore.cs">
+      <Link>Runtime\Mapbox\BaseModule\Utilities\MapBehaviourCore.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\DataFetchingResult.cs">
       <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\DataFetchingResult.cs</Link>
     </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\Tilesets.cs">
       <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\Tilesets.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapBehaviourCore.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapBehaviourCore.cs</Link>
     </Compile>
     <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\SQLite\SQLite.cs">
       <Link>Runtime\Mapbox\BaseModule\Data\Platform\SQLite\SQLite.cs</Link>
@@ -1113,6 +1113,14 @@
       <HintPath>Library\PackageCache\com.unity.services.wire@9a73acde80cc\Plugins\websocket-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mapbox.VectorTile.Geometry">
+      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.PbfReader">
+      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -1133,6 +1141,10 @@
       <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="MapboxAccountsUnity">
+      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="NanoSockets">
       <HintPath>Assets\Photon\Fusion\Plugins\NanoSockets\NanoSockets\Dynamic\NanoSockets.dll</HintPath>
       <Private>False</Private>
@@ -1141,12 +1153,28 @@
       <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Sockets.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mapbox.Json">
+      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mapbox.IO.Compression">
+      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.VectorTileReader">
+      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.IO.Hashing">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Fusion.Runtime">
       <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.ExtensionMethods">
+      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Photon3Unity3D">
@@ -1167,34 +1195,6 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mapbox.Json">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
