@@ -636,11 +636,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -664,7 +664,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NanoSockets">
@@ -676,15 +676,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -696,7 +696,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Photon3Unity3D">

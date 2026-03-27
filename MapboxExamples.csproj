@@ -61,68 +61,28 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\SlippyMapCameraBehaviour.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\SlippyMapCameraBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\UnityTileProviderBehaviour.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\UnityTileProviderBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\MapInput.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\MapInput.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Map\ShaderLineThickness.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Map\ShaderLineThickness.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Map\MapboxMapBehaviour.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Map\MapboxMapBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Moving3dCameraBehaviour.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Moving3dCameraBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\ElevatedVectorMediator.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\ElevatedVectorMediator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Map\LoadingScreen.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Map\LoadingScreen.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Map\SnapMapToTransform.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Map\SnapMapToTransform.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Map\UnityRangeTileProviderBehaviour.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Map\UnityRangeTileProviderBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\TileProviderBehaviours\TileProviderBehaviour.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\TileProviderBehaviours\TileProviderBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\SlippyMapCamera.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\SlippyMapCamera.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Map\MapCenterShifterBehaviour.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Map\MapCenterShifterBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\DrawTileBorders.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\DrawTileBorders.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Test\FilterTest.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Test\FilterTest.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Map\SnapPositionToPosition.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Map\SnapPositionToPosition.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Test\ApiTest.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Test\ApiTest.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Moving3dCamera.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Moving3dCamera.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\Scripts\Map\HeroBuilding.cs">
-      <Link>Runtime\Mapbox\Example\Scripts\Map\HeroBuilding.cs</Link>
-    </Compile>
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\UnityTileProviderBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Test\ApiTest.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\MapInput.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\ElevatedVectorMediator.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\TileProviderBehaviours\TileProviderBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Map\LoadingScreen.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\DrawTileBorders.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\SlippyMapCameraBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Map\ShaderLineThickness.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\SlippyMapCamera.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Map\MapboxMapBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Map\MapCenterShifterBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Moving3dCameraBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Map\HeroBuilding.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Map\UnityRangeTileProviderBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Map\SnapMapToTransform.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Moving3dCamera.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Test\FilterTest.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\Scripts\Map\SnapPositionToPosition.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\Example\MapboxExamples.asmdef">
-      <Link>Runtime\Mapbox\Example\MapboxExamples.asmdef</Link>
-    </None>
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\Example\MapboxExamples.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -670,11 +630,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -698,7 +658,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NanoSockets">
@@ -710,15 +670,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -730,7 +690,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Photon3Unity3D">

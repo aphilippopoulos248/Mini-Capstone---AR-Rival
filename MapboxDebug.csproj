@@ -61,59 +61,25 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Sequence\SequenceParser.cs">
-      <Link>Runtime\Mapbox\MapDebug\Sequence\SequenceParser.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingDataFetchingManagerBehaviour.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingDataFetchingManagerBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingMapBehaviour.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingMapBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingMapVisualizer.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingMapVisualizer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Sequence\SequenceControllerBehaviour.cs">
-      <Link>Runtime\Mapbox\MapDebug\Sequence\SequenceControllerBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingFileCache.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingFileCache.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingCacheManagerBehaviour.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingCacheManagerBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\TestMap.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\TestMap.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingSqliteCache.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingSqliteCache.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingTaskManager.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingTaskManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingDataFetchingManager.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingDataFetchingManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\MapLogger.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\MapLogger.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Sequence\ViewSequenceLoader.cs">
-      <Link>Runtime\Mapbox\MapDebug\Sequence\ViewSequenceLoader.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingCacheManager.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingCacheManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingResilientWebRequestFileSource.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingResilientWebRequestFileSource.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\Scripts\ILogWriter.cs">
-      <Link>Runtime\Mapbox\MapDebug\Scripts\ILogWriter.cs</Link>
-    </Compile>
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingCacheManagerBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingCacheManager.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Sequence\SequenceParser.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\ILogWriter.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingDataFetchingManager.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingResilientWebRequestFileSource.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingDataFetchingManagerBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingMapBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\TestMap.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingFileCache.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Sequence\SequenceControllerBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Sequence\ViewSequenceLoader.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingTaskManager.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingSqliteCache.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\MapLogger.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\Scripts\Logging\LoggingMapVisualizer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\MapDebug\MapboxDebug.asmdef">
-      <Link>Runtime\Mapbox\MapDebug\MapboxDebug.asmdef</Link>
-    </None>
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\MapDebug\MapboxDebug.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -661,11 +627,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -689,7 +655,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NanoSockets">
@@ -701,15 +667,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -721,7 +687,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Photon3Unity3D">

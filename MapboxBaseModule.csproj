@@ -61,512 +61,176 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\VectorFeatureUnity.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\VectorFeatureUnity.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Vector2d\Mathd.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Vector2d\Mathd.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\IMapInformation.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\IMapInformation.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\MapboxTileData.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\MapboxTileData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\BuildingData.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\BuildingData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\IObserver.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\IObserver.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\JsonConverters\JsonConverters.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\JsonConverters\JsonConverters.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\DataFetchingManager.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\DataFetchingManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Android\UniAndroidPermission\UniAndroidPermission.cs">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Android\UniAndroidPermission\UniAndroidPermission.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tasks\MeshGenTaskWrapper.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tasks\MeshGenTaskWrapper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationModificationOptions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationModificationOptions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\CacheItem.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\CacheItem.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\TileCover.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\TileCover.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\MeshExtensions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\MeshExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationLayerProperties.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationLayerProperties.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\CheapRuler.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\CheapRuler.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\MemoryCache.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\MemoryCache.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultVector.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultVector.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tasks\TaskWrapper.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tasks\TaskWrapper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\TileResource.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\TileResource.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\RetinaRasterTile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\RetinaRasterTile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxTokenApi.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapboxTokenApi.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\JsonConverters\BboxToGeoCoordinateBoundsConverter.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\JsonConverters\BboxToGeoCoordinateBoundsConverter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSONReponse.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSONReponse.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\FileCache.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\FileCache.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\JsonConverters\LonLatToGeoCoordinateConverter.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\JsonConverters\LonLatToGeoCoordinateConverter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\IWebRequest.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\IWebRequest.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\UnityLayerOptions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\UnityLayerOptions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSON.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSON.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\FileSource.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\FileSource.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\ByteArrayTile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\ByteArrayTile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\IMapVisualizer.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Interfaces\IMapVisualizer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Response.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Response.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ITextureCache.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\ITextureCache.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\MapInformationStaticMethods.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\MapInformationStaticMethods.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\TileCreatorBehaviour.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\TileCreatorBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationRequiredOptions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationRequiredOptions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\VectorSourceSettings.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\VectorSourceSettings.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\SqliteCache.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\SqliteCache.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Compression.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Compression.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryFactory.cs">
-      <Link>Runtime\Mapbox\BaseModule\Telemetry\TelemetryFactory.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultElevation.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultElevation.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\TextureCacheItem.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\TextureCacheItem.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\VectorExtensions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\VectorExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryEditor.cs">
-      <Link>Runtime\Mapbox\BaseModule\Telemetry\TelemetryEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\IAsyncRequest.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\IAsyncRequest.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Singleton.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Singleton.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\MapboxMap.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\MapboxMap.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\FetchInfo.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\FetchInfo.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\MapboxCacheManager.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\MapboxCacheManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\RasterData.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\RasterData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Attributes\DescriptionAttribute.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Attributes\DescriptionAttribute.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\UnityTileImageContainer.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\UnityTileImageContainer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\MapInformation.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\MapInformation.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxToken.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapboxToken.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\MapUtils.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\MapUtils.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\TypeMemoryCache.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\TypeMemoryCache.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\InitializationStatus.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\InitializationStatus.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\FlatTerrainStrategy.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\FlatTerrainStrategy.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Attributes\NodeEditorElementAttribute.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Attributes\NodeEditorElementAttribute.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Conversions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Conversions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\UnityMapTile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\UnityMapTile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\VectorData.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\VectorData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\MapboxMapVisualizer.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\MapboxMapVisualizer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Attributes\GeocodeAttribute.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Attributes\GeocodeAttribute.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\MapService.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\MapService.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\IEnumerableExtensions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\IEnumerableExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Runnable.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Runnable.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\MapboxEnums.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Interfaces\MapboxEnums.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Style.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Style.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Vector2d\LatitudeLongitude.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Vector2d\LatitudeLongitude.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\IFileSource.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\IFileSource.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\LatitudeLongitudeBounds.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\LatitudeLongitudeBounds.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\PolylineUtils.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\PolylineUtils.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ISqliteCache.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\ISqliteCache.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Constants.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Constants.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSONObjectVectorLayer.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSONObjectVectorLayer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\CanonicalTileId.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\CanonicalTileId.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\RawPngRasterTile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\RawPngRasterTile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryWebgl.cs">
-      <Link>Runtime\Mapbox\BaseModule\Telemetry\TelemetryWebgl.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\OpenUrlOnButtonClick.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\OpenUrlOnButtonClick.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\DynamicScalingMapInformation.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\DynamicScalingMapInformation.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\TileCreator.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\TileCreator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\CompositeLayerModuleScript.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\CompositeLayerModuleScript.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\Tiles.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\Tiles.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientWebRequest.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientWebRequest.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientWebRequestFileSource.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientWebRequestFileSource.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\CompositeLayerModule.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\CompositeLayerModule.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\ILayerModule.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Interfaces\ILayerModule.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\ObjectPool.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\ObjectPool.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\IMapContainer.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Interfaces\IMapContainer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tasks\TaskManager.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tasks\TaskManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\ImageSourceSettings.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\ImageSourceSettings.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Vector2d\RectD.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Vector2d\RectD.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MeasureTime.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MeasureTime.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationBasedTerrainStrategy.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationBasedTerrainStrategy.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequestNonThreaded.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequestNonThreaded.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\MeshData.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\MeshData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxConfiguration.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapboxConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\TelemetryConfigurationButton.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\TelemetryConfigurationButton.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequestThreaded.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequestThreaded.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\ElevatedTerrainStrategy.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\ElevatedTerrainStrategy.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryFallback.cs">
-      <Link>Runtime\Mapbox\BaseModule\Telemetry\TelemetryFallback.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapShifterCore.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapShifterCore.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\UnityTileTerrainContainer.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\UnityTileTerrainContainer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryAndroid.cs">
-      <Link>Runtime\Mapbox\BaseModule\Telemetry\TelemetryAndroid.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\WebRequestResponse.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\WebRequestResponse.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Map\MapboxContext.cs">
-      <Link>Runtime\Mapbox\BaseModule\Map\MapboxContext.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultImagery.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultImagery.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientTextureRequest.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientTextureRequest.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResponseStaticMethods.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResponseStaticMethods.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\VectorEntity.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\VectorEntity.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\RasterTile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\RasterTile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\ScriptableObjects\AnimationCurveContainer.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\ScriptableObjects\AnimationCurveContainer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\TileErrorEventArgs.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\TileErrorEventArgs.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\Attributes\StyleSearchAttribute.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\Attributes\StyleSearchAttribute.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\TerrainSideWallOptions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\TerrainSideWallOptions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequest.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequest.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\UnixTimestampUtils.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\UnixTimestampUtils.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Resource.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Resource.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\TerrainData.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\TerrainData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\UnwrappedTileId.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\UnwrappedTileId.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Vector2d\Vector2d.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Vector2d\Vector2d.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\TerrainColliderOptions.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\TerrainColliderOptions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\IObservable.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\IObservable.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\MapBehaviourCore.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\MapBehaviourCore.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\DataFetchingResult.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\DataFetchingResult.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\Tilesets.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\Tilesets.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\SQLite\SQLite.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\SQLite\SQLite.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\ModuleConstructorScript.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\ModuleConstructorScript.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\Source.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\Source.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\ClassicRetinaRasterTile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\ClassicRetinaRasterTile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\TerrainStrategy.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\TerrainStrategies\TerrainStrategy.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\MapboxCacheManagerBehaviour.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\MapboxCacheManagerBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryIos.cs">
-      <Link>Runtime\Mapbox\BaseModule\Telemetry\TelemetryIos.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryDummy.cs">
-      <Link>Runtime\Mapbox\BaseModule\Telemetry\TelemetryDummy.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Telemetry\ITelemetryLibrary.cs">
-      <Link>Runtime\Mapbox\BaseModule\Telemetry\ITelemetryLibrary.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\IAsyncRequestFactory.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\IAsyncRequestFactory.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tasks\TaskResult.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tasks\TaskResult.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\UnityContext.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\UnityContext.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Platform\IResource.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Platform\IResource.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\Tile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\Tile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\ITerrainLayerModule.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Interfaces\ITerrainLayerModule.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\UnityTileVectorContainer.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\UnityTileVectorContainer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\Tiles\ClassicRasterTile.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\Tiles\ClassicRasterTile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Utilities\JsonConverters\PolylineToGeoCoordinateListConverter.cs">
-      <Link>Runtime\Mapbox\BaseModule\Utilities\JsonConverters\PolylineToGeoCoordinateListConverter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\FileDataFetcher.cs">
-      <Link>Runtime\Mapbox\BaseModule\Data\DataFetchers\FileDataFetcher.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\DataFetchingManagerBehaviour.cs">
-      <Link>Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\DataFetchingManagerBehaviour.cs</Link>
-    </Compile>
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\DynamicScalingMapInformation.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ITextureCache.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationLayerProperties.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tasks\TaskResult.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\SQLite\SQLite.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\IMapVisualizer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Singleton.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\RasterData.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\TerrainSideWallOptions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\UnityContext.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Vector2d\RectD.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultVector.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\Tilesets.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\IMapInformation.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\UnityTileVectorContainer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\OpenUrlOnButtonClick.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultImagery.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\IObservable.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\RawPngRasterTile.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\TileCover.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\MeshExtensions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Constants.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\FileSource.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\ObjectPool.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResponseStaticMethods.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\MapboxMap.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\CanonicalTileId.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\UnityLayerOptions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\CheapRuler.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\IAsyncRequest.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MapShifterCore.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ISqliteCache.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSONObjectVectorLayer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\ScriptableObjects\AnimationCurveContainer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Resource.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MapBehaviourCore.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\VectorData.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Attributes\GeocodeAttribute.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\TerrainStrategy.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\ByteArrayTile.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\UnwrappedTileId.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\ElevatedTerrainStrategy.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\ModuleConstructorScript.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\MapUtils.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Vector2d\LatitudeLongitude.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\Tile.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\CompositeLayerModule.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\UnixTimestampUtils.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\MapInformation.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\CompositeLayerModuleScript.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientTextureRequest.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\MeshData.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\TextureCacheItem.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxConfiguration.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\TerrainColliderOptions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\FlatTerrainStrategy.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Android\UniAndroidPermission\UniAndroidPermission.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\TerrainData.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\Source.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\VectorEntity.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\FileCache.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryAndroid.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\BuildingData.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Vector2d\Vector2d.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientWebRequest.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\ImageSourceSettings.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\DataFetchingManagerBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\MapboxEnums.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\TileResource.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryIos.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Vector2d\Mathd.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\VectorSourceSettings.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\Tiles.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Runnable.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\JsonConverters\PolylineToGeoCoordinateListConverter.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\UnityTileImageContainer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\IResource.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\WebRequestResponse.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\TileCreator.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\ITerrainLayerModule.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryEditor.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\VectorFeatureUnity.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryWebgl.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\MapboxCacheManager.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\DataFetchingResult.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\IAsyncRequestFactory.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryFactory.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MeasureTime.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\JsonConverters\LonLatToGeoCoordinateConverter.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Style.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tasks\TaskManager.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\MapInformationStaticMethods.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\IEnumerableExtensions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryDummy.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\InitializationStatus.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequestNonThreaded.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\TileErrorEventArgs.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\IObserver.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxTokenApi.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\MapboxTileData.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Attributes\NodeEditorElementAttribute.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\ILayerModule.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\UnityMapTile.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Compression.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\RetinaRasterTile.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\MapboxContext.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\SQLiteCache\SqliteCache.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSONReponse.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Attributes\DescriptionAttribute.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\MapboxCacheManagerBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tasks\MeshGenTaskWrapper.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\TelemetryConfigurationButton.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\TypeMemoryCache.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\MemoryCache.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\ModuleBehaviours\TileCreatorBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationBasedTerrainStrategy.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\MapService.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\RasterTile.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\FetchInfo.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\TileJSON\TileJSON.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\IWebRequest.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\DataFetchingManager.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\ClassicRetinaRasterTile.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequestThreaded.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\JsonConverters\JsonConverters.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationRequiredOptions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxToken.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tiles\ClassicRasterTile.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\UnityTileTerrainContainer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Telemetry\ITelemetryLibrary.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Map\MapboxMapVisualizer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\VectorExtensions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Response.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\JsonConverters\BboxToGeoCoordinateBoundsConverter.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\MapboxDefaultElevation.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Tasks\TaskWrapper.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Telemetry\TelemetryFallback.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Attributes\StyleSearchAttribute.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\TerrainStrategies\Settings\ElevationModificationOptions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\ResilientWebRequestFileSource.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\HTTPRequest.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\LatitudeLongitudeBounds.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\IFileSource.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Platform\Cache\CacheItem.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\Conversions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Utilities\PolylineUtils.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\Interfaces\IMapContainer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Data\DataFetchers\FileDataFetcher.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.PbfReader.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.PbfReader.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\sqlite\x64\sqlite3.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\sqlite\x64\sqlite3.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\sqlite\x86\sqlite3.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\sqlite\x86\sqlite3.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.Geometry.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.Geometry.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Portable\Mapbox.Json.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Portable\Mapbox.Json.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\MapboxBaseModule.asmdef">
-      <Link>Runtime\Mapbox\BaseModule\MapboxBaseModule.asmdef</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Android\UniAndroidPermission\AndroidManifest-uniRP.xml">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Android\UniAndroidPermission\AndroidManifest-uniRP.xml</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.ExtensionMethods.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.ExtensionMethods.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.VectorTileReader.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.VectorTileReader.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Unity\Visuals\Shaders\ColorspaceUtils.cginc">
-      <Link>Runtime\Mapbox\BaseModule\Unity\Visuals\Shaders\ColorspaceUtils.cginc</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\link.xml">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\link.xml</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net4x\MapboxAccountsUnity.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net4x\MapboxAccountsUnity.dll</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\uap10\Mapbox.IO.Compression.dll">
-      <Link>Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\uap10\Mapbox.IO.Compression.dll</Link>
-    </None>
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.PbfReader.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\sqlite\x64\sqlite3.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\sqlite\x86\sqlite3.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.Geometry.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Portable\Mapbox.Json.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\MapboxBaseModule.asmdef" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Android\UniAndroidPermission\AndroidManifest-uniRP.xml" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.ExtensionMethods.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\portable-net45+uap10\Mapbox.VectorTile.VectorTileReader.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Unity\Visuals\Shaders\ColorspaceUtils.cginc" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\link.xml" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net4x\MapboxAccountsUnity.dll" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\uap10\Mapbox.IO.Compression.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1114,11 +778,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -1142,7 +806,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NanoSockets">
@@ -1154,15 +818,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -1174,7 +838,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Photon3Unity3D">

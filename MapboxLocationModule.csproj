@@ -61,104 +61,40 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\Logging\LocationLogReader.cs">
-      <Link>Runtime\Mapbox\LocationModule\Logging\LocationLogReader.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\IAngleSmoothing.cs">
-      <Link>Runtime\Mapbox\LocationModule\AngleSmoothing\IAngleSmoothing.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\Logging\LocationLogWriter.cs">
-      <Link>Runtime\Mapbox\LocationModule\Logging\LocationLogWriter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingNoOp.cs">
-      <Link>Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingNoOp.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\DeviceLocationProvider.cs">
-      <Link>Runtime\Mapbox\LocationModule\DeviceLocationProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingAbstractBase.cs">
-      <Link>Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingAbstractBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\ILocationProvider.cs">
-      <Link>Runtime\Mapbox\LocationModule\ILocationProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\AbstractLocationProvider.cs">
-      <Link>Runtime\Mapbox\LocationModule\AbstractLocationProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationInfoUnityWrapper.cs">
-      <Link>Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationInfoUnityWrapper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\LocationProviderFactory.cs">
-      <Link>Runtime\Mapbox\LocationModule\LocationProviderFactory.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\CircularBuffer.cs">
-      <Link>Runtime\Mapbox\LocationModule\CircularBuffer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\AbstractEditorLocationProvider.cs">
-      <Link>Runtime\Mapbox\LocationModule\AbstractEditorLocationProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingEMA.cs">
-      <Link>Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingEMA.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingLowPass.cs">
-      <Link>Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingLowPass.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\LocationArrayEditorLocationProvider.cs">
-      <Link>Runtime\Mapbox\LocationModule\LocationArrayEditorLocationProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingAverage.cs">
-      <Link>Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingAverage.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationServiceUnityWrapper.cs">
-      <Link>Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationServiceUnityWrapper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\EditorLocationProviderLocationLog.cs">
-      <Link>Runtime\Mapbox\LocationModule\EditorLocationProviderLocationLog.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\IMapboxLocationService.cs">
-      <Link>Runtime\Mapbox\LocationModule\UnityLocationWrappers\IMapboxLocationService.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\Location.cs">
-      <Link>Runtime\Mapbox\LocationModule\Location.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\IMapboxLocationInfo.cs">
-      <Link>Runtime\Mapbox\LocationModule\UnityLocationWrappers\IMapboxLocationInfo.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationServiceMock.cs">
-      <Link>Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationServiceMock.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationInfoMock.cs">
-      <Link>Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationInfoMock.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\EditorLocationProvider.cs">
-      <Link>Runtime\Mapbox\LocationModule\EditorLocationProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\Logging\LocationLogAbstractBase.cs">
-      <Link>Runtime\Mapbox\LocationModule\Logging\LocationLogAbstractBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\LocationSmoothing\KalmanFilter.cs">
-      <Link>Runtime\Mapbox\LocationModule\LocationSmoothing\KalmanFilter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\DeviceLocationProviderAndroidNative.cs">
-      <Link>Runtime\Mapbox\LocationModule\DeviceLocationProviderAndroidNative.cs</Link>
-    </Compile>
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingAverage.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\Logging\LocationLogWriter.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\IMapboxLocationInfo.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationServiceMock.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\EditorLocationProvider.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingAbstractBase.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\Logging\LocationLogReader.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingEMA.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingNoOp.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationServiceUnityWrapper.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\AbstractLocationProvider.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\LocationProviderFactory.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\Logging\LocationLogAbstractBase.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\IAngleSmoothing.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\AngleSmoothing\AngleSmoothingLowPass.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\DeviceLocationProviderAndroidNative.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationInfoUnityWrapper.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\AbstractEditorLocationProvider.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\DeviceLocationProvider.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\ILocationProvider.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\Location.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\IMapboxLocationService.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\UnityLocationWrappers\MapboxLocationInfoMock.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\LocationSmoothing\KalmanFilter.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\LocationArrayEditorLocationProvider.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\EditorLocationProviderLocationLog.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\CircularBuffer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderAndroidNative.txt">
-      <Link>Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderAndroidNative.txt</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderUnity.txt">
-      <Link>Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderUnity.txt</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\MapboxLocationModule.asmdef">
-      <Link>Runtime\Mapbox\LocationModule\MapboxLocationModule.asmdef</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\ExampleGpsTraces\Helsinki.txt">
-      <Link>Runtime\Mapbox\LocationModule\ExampleGpsTraces\Helsinki.txt</Link>
-    </None>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderAndroidNative-2.txt">
-      <Link>Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderAndroidNative-2.txt</Link>
-    </None>
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderAndroidNative.txt" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderUnity.txt" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\MapboxLocationModule.asmdef" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\ExampleGpsTraces\Helsinki.txt" />
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\LocationModule\ExampleGpsTraces\LocationProviderAndroidNative-2.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -706,11 +642,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -734,7 +670,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NanoSockets">
@@ -746,15 +682,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -766,7 +702,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Photon3Unity3D">

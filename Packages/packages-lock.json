@@ -19,13 +19,14 @@
       "hash": "6d5659fbfa475bb6898e2d9df007573917bbd738"
     },
     "com.mapbox.sdk": {
-      "version": "file:C:/Users/alexa/Documents/mapbox-unity-sdk",
+      "version": "https://github.com/mapbox/mapbox-unity-sdk.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.render-pipelines.universal": "10.10.1",
         "com.unity.nuget.newtonsoft-json": "3.2.1"
-      }
+      },
+      "hash": "7c58b2e4c1d3436c9f0a1ea92e5c81eca81babf5"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",

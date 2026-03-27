@@ -61,185 +61,67 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\GameObjectModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\GameObjectModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertiesViewerModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertiesViewerModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\FilterBase.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\FilterBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\PolygonMeshModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\PolygonMeshModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\PolygonMeshModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\PolygonMeshModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Unity\VectorLayerVisualizerObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\Unity\VectorLayerVisualizerObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\ILayerFeatureFilterComparer.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\ILayerFeatureFilterComparer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\ModifierBase.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\ModifierBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\VectorFilterOptions.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\VectorFilterOptions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\VectorLayerVisualizer.cs">
-      <Link>Runtime\Mapbox\VectorModule\VectorLayerVisualizer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PrefabModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PrefabModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\VectorModuleSettings.cs">
-      <Link>Runtime\Mapbox\VectorModule\VectorModuleSettings.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\HeightModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\HeightModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\GeometryTypeFilterObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\GeometryTypeFilterObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\MaterialModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\MaterialModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\HeightModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\HeightModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertyViewerModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertyViewerModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshOnLineModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshOnLineModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\LineMeshModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\LineMeshModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\LineMeshModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\LineMeshModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\TypeFilterObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\TypeFilterObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshOnPointModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshOnPointModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertiesViewerBehaviour.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertiesViewerBehaviour.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Earcut.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\Earcut.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\VectorLayerModule.cs">
-      <Link>Runtime\Mapbox\VectorModule\VectorLayerModule.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\PrefabSet.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\PrefabSet.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\HasPropertyFilterObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\HasPropertyFilterObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\SnapTerrainModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\SnapTerrainModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\FeatureStringPropertyFilterObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\FeatureStringPropertyFilterObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\MaterialModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\MaterialModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\MeshOnPointModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\MeshOnPointModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\LayerModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\LayerModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\TagModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\TagModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\IVectorLayerVisualizer.cs">
-      <Link>Runtime\Mapbox\VectorModule\IVectorLayerVisualizer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\ModifierStack.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\ModifierStack.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\LayerModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\LayerModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\FeatureIdFilterObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\FeatureIdFilterObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\MeshOnLineModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\MeshOnLineModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ExpandableAttribute.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ExpandableAttribute.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\ChamferHeightModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\ChamferHeightModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ScriptableMeshModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ScriptableMeshModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ChamferHeightModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ChamferHeightModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ScriptableGameObjectModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ScriptableGameObjectModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\ColliderModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\ColliderModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Unity\VectorLayerModuleScript.cs">
-      <Link>Runtime\Mapbox\VectorModule\Unity\VectorLayerModuleScript.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Utility\Attributes\GameObjectLayerAttribute.cs">
-      <Link>Runtime\Mapbox\VectorModule\Utility\Attributes\GameObjectLayerAttribute.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PrefabModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PrefabModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\VectorLayerVisualizerSettings.cs">
-      <Link>Runtime\Mapbox\VectorModule\VectorLayerVisualizerSettings.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Utility\Attributes\GameObjectTagAttribute.cs">
-      <Link>Runtime\Mapbox\VectorModule\Utility\Attributes\GameObjectTagAttribute.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ModifierStackObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ModifierStackObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\FeatureNumberPropertyFilterObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\FeatureNumberPropertyFilterObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\SnapTerrainModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\SnapTerrainModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\TagModifier.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\TagModifier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\VectorFilterStackObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\Unity\VectorFilterStackObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\ColliderModifierObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\ColliderModifierObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshGenerationTaskResult.cs">
-      <Link>Runtime\Mapbox\VectorModule\MeshGeneration\MeshGenerationTaskResult.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\Filters\PolygonCollisionFilterObject.cs">
-      <Link>Runtime\Mapbox\VectorModule\Filters\PolygonCollisionFilterObject.cs</Link>
-    </Compile>
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\ColliderModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\PolygonMeshModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\PolygonMeshModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ScriptableMeshModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\HeightModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\ChamferHeightModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\MaterialModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\FeatureNumberPropertyFilterObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\TypeFilterObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\SnapTerrainModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\SnapTerrainModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\VectorFilterStackObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\HasPropertyFilterObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertyViewerModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\MaterialModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\FilterBase.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshOnPointModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshOnLineModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\VectorModuleSettings.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Unity\VectorLayerVisualizerObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\LayerModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\ColliderModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\GeometryTypeFilterObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\VectorLayerVisualizerSettings.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Unity\VectorLayerModuleScript.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertiesViewerModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\MeshOnPointModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\ModifierStack.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\FeatureIdFilterObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Utility\Attributes\GameObjectLayerAttribute.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\IVectorLayerVisualizer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\PrefabSet.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\TagModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Utility\Attributes\GameObjectTagAttribute.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\MeshModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\FeatureStringPropertyFilterObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ChamferHeightModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\MeshOnLineModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ScriptableGameObjectModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\TagModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\PolygonCollisionFilterObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\HeightModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\ModifierBase.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ExpandableAttribute.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PrefabModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\VectorLayerVisualizer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\GameObjectModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\ScriptableObjects\LineMeshModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\ILayerFeatureFilterComparer.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Unity\ModifierStackObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\Earcut.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshGenerationTaskResult.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\Filters\VectorFilterOptions.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\MeshModifiers\LineMeshModifier.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\VectorLayerModule.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PropertiesViewerBehaviour.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\LayerModifierObject.cs" />
+    <Compile Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MeshGeneration\GameObjectModifiers\PrefabModifierObject.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\VectorModule\MapboxVectorModule.asmdef">
-      <Link>Runtime\Mapbox\VectorModule\MapboxVectorModule.asmdef</Link>
-    </None>
+    <None Include="Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\VectorModule\MapboxVectorModule.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -787,11 +669,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.Geometry.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -815,7 +697,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NanoSockets">
@@ -827,15 +709,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -847,7 +729,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:\Users\alexa\Documents\mapbox-unity-sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>Assets\Packages\com.mapbox.sdk\Runtime\Mapbox\BaseModule\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Photon3Unity3D">
