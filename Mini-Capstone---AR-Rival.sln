@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxVectorModule", "Mapbo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxBaseModule", "MapboxBaseModule.csproj", "{968365DD-2F88-406E-764F-16DAD9DEF862}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{818849BF-A58D-0F5A-131A-FE51CA1CDB35}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxDirectionsApi", "MapboxDirectionsApi.csproj", "{6BBDAF21-8B44-2C7E-3A96-2A9FB6183C8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityMapModule", "UnityMapModule.csproj", "{1418E427-C885-0FB5-7CC2-FA532085226A}"
@@ -16,8 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxLocationModule", "MapboxLocationModule.csproj", "{B65D15A0-7D47-6998-0B56-F25897C68D8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxVectorModule.Editor", "MapboxVectorModule.Editor.csproj", "{84E24150-529F-7AF6-09D2-35B6677BD261}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{818849BF-A58D-0F5A-131A-FE51CA1CDB35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{2CB6D7BF-1BB6-F59B-D04E-94208F60EF17}"
 EndProject
@@ -71,6 +71,10 @@ Global
 		{968365DD-2F88-406E-764F-16DAD9DEF862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{968365DD-2F88-406E-764F-16DAD9DEF862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{968365DD-2F88-406E-764F-16DAD9DEF862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818849BF-A58D-0F5A-131A-FE51CA1CDB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818849BF-A58D-0F5A-131A-FE51CA1CDB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818849BF-A58D-0F5A-131A-FE51CA1CDB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818849BF-A58D-0F5A-131A-FE51CA1CDB35}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6BBDAF21-8B44-2C7E-3A96-2A9FB6183C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6BBDAF21-8B44-2C7E-3A96-2A9FB6183C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BBDAF21-8B44-2C7E-3A96-2A9FB6183C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,10 +91,6 @@ Global
 		{84E24150-529F-7AF6-09D2-35B6677BD261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84E24150-529F-7AF6-09D2-35B6677BD261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84E24150-529F-7AF6-09D2-35B6677BD261}.Release|Any CPU.Build.0 = Release|Any CPU
-		{818849BF-A58D-0F5A-131A-FE51CA1CDB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{818849BF-A58D-0F5A-131A-FE51CA1CDB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{818849BF-A58D-0F5A-131A-FE51CA1CDB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{818849BF-A58D-0F5A-131A-FE51CA1CDB35}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2CB6D7BF-1BB6-F59B-D04E-94208F60EF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2CB6D7BF-1BB6-F59B-D04E-94208F60EF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CB6D7BF-1BB6-F59B-D04E-94208F60EF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
