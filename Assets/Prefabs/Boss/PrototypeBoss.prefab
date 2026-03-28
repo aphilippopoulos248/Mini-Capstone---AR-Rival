@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthComponent
       objectReference: {fileID: 0}
+    - target: {fileID: 5568888169997259311, guid: 9fa7789302161e84594d9dcdadaacf5c, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 8756037012202893980}
+    - target: {fileID: 5568888169997259311, guid: 9fa7789302161e84594d9dcdadaacf5c, type: 3}
+      propertyPath: maxHealth
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 6621187812559608404, guid: 9fa7789302161e84594d9dcdadaacf5c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -125,6 +133,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6621187812559608404, guid: 9fa7789302161e84594d9dcdadaacf5c, type: 3}
   m_PrefabInstance: {fileID: 3439852603853427042}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8756037012202893980 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6214825591810843646, guid: 9fa7789302161e84594d9dcdadaacf5c, type: 3}
+  m_PrefabInstance: {fileID: 3439852603853427042}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1249694cbb449c84384819831ad230b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthBar
 --- !u!1001 &8363328325988666591
 PrefabInstance:
   m_ObjectHideFlags: 0
