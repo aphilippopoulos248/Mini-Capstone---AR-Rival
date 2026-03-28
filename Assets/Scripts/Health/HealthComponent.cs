@@ -1,28 +1,43 @@
-using Unity.Multiplayer.Center.NetcodeForGameObjectsExample.DistributedAuthority;
+using Fusion;
 using UnityEngine;
 
-public class HealthComponent : MonoBehaviour, IHealth
+public class HealthComponent : NetworkBehaviour, IHealth
 {
     [SerializeField] private int maxHealth = 100;
-    private float health;
-    private HealthBar healthBar;
+    [SerializeField] private HealthBar healthBar;
 
-    public float CurrentHealth => health;
+    [Networked]
+    public float Health { get; set; }
+
+    public float CurrentHealth => Health;
     public int MaxHealth => maxHealth;
 
-    public void Start()
+    public override void Spawned()
     {
-        health = maxHealth;
+        Health = maxHealth;
 
-        if (healthBar == null) healthBar = GetComponentInChildren<HealthBar>();
+        if (healthBar == null)
+            healthBar = GetComponentInChildren<HealthBar>();
+
+        UpdateHealthBar();
     }
 
     public void TakeDamage(float damage, bool isDemo = false)
     {
-        Debug.Log("Damage taken: " + damage);
-        health -= damage;
+        //// Only the State Authority should directly change networked state
+        //if (!Object.HasStateAuthority)
+        //    return;
 
-        if (health <= 0)
+        Debug.Log("Damage taken: " + damage);
+
+        Health -= damage;
+
+        if (Health < 0)
+            Health = 0;
+
+        UpdateHealthBar();
+
+        if (Health <= 0)
         {
             Die();
         }
@@ -30,21 +45,35 @@ public class HealthComponent : MonoBehaviour, IHealth
 
     public void Heal()
     {
+        if (!Object.HasStateAuthority)
+            return;
 
+        Health = maxHealth;
+        UpdateHealthBar();
     }
 
     public void Die()
     {
-        Destroy(gameObject);
+        if (!Object.HasStateAuthority)
+            return;
+
+        Runner.Despawn(Object);
     }
 
     public float GetHealthPercentage()
     {
-        return health / maxHealth;
+        return maxHealth <= 0 ? 0f : Health / maxHealth;
     }
 
     public void ShowDamageNumber(float damage, Color numberColor)
     {
-        healthBar.UpdateHealth(GetHealthPercentage(), damage, numberColor);
+        if (healthBar != null)
+            healthBar.UpdateHealth(GetHealthPercentage(), damage, numberColor);
+    }
+
+    private void UpdateHealthBar()
+    {
+        if (healthBar != null)
+            healthBar.UpdateHealth(GetHealthPercentage(), 0, Color.white);
     }
 }

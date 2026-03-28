@@ -39,9 +39,16 @@ public class GameManager : MonoBehaviour
     private void OnPlayerJoined()
     {
         multiuserUI.SetActive(false);
+
+        // Preventing multiple instances of the enemy spawning each time a client joins
+        var runner = NetworkManager.Instance.Runner;
+        if (runner == null)
+            return;
+        if (!runner.IsSharedModeMasterClient)
+            return;
+
         dragonSpawner.SpawnDragon();
     }
-
     private void Update()
     {
         int q = immersalSDK.TrackingStatus?.TrackingQuality ?? 0;
