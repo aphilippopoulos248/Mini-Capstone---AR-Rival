@@ -240,6 +240,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1099643608746048924}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6465534594754424687}
   m_SourcePrefab: {fileID: 100100000, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
 --- !u!4 &8330036089020033844 stripped
 Transform:
@@ -414,3 +417,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Boss
   healthComponent: {fileID: 7130436255303402317}
   tapDamage: 10
+--- !u!114 &6465534594754424687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8705998063909040526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.BehaviorGraphAgent
+  ShowTopMostFoldoutHeaderGroup: 1
+  m_Graph: {fileID: -5840993480482685857, guid: 49c704bc4ca3641fab7966fd039edb53, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 2745756049326998340
+  m_OriginalGraph: {fileID: 0}
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  NetcodeRunOnlyOnOwner: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2745756049326998340
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 8705998063909040526}
