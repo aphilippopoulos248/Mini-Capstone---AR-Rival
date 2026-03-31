@@ -6,6 +6,11 @@ using UnityEngine.InputSystem;
 public class BossBase : MonoBehaviour, IBoss
 {
     protected PlayerActions actions;
+    public System.Action DieEvent;
+    public System.Action StunEvent;
+    public System.Action SpAttackEvent;
+    public System.Action AttackEvent;
+    public System.Action EnrageEvent;
 
     void Awake()
     {

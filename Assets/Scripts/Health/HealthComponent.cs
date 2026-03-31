@@ -8,7 +8,6 @@ public class HealthComponent : NetworkBehaviour, IHealth
 
     [Networked]
     public float Health { get; set; }
-
     public float CurrentHealth => Health;
     public int MaxHealth => maxHealth;
 
@@ -36,11 +35,6 @@ public class HealthComponent : NetworkBehaviour, IHealth
             Health = 0;
 
         UpdateHealthBar();
-
-        if (Health <= 0)
-        {
-            Die();
-        }
     }
 
     public void Heal()
