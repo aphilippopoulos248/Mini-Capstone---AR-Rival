@@ -4,3 +4,4 @@ Build/*
 Temp/*
 Logs/*
 .vs/*
+.vscode/*

@@ -23,8 +23,6 @@ public class BossCombat : BossBase
         DieEvent += () => { agent.SetVariableValue<bool>("isDead", true); };
         StunEvent += () => { agent.SetVariableValue<bool>("isStunned", true); };
         EnrageEvent += () => { agent.SetVariableValue<bool>("isEnraged", true); };
-        SpAttackEvent += () => { agent.SetVariableValue<bool>("shouldSpAttack", true); };
-        AttackEvent += () => { agent.SetVariableValue<bool>("shouldSpAttack", false); };
     }
 
     void OnEnable()
@@ -53,6 +51,12 @@ public class BossCombat : BossBase
         if (!DeathCheck()) EnrageCheck();
 
         Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
+    }
+
+    public void Attack()
+    {
+        AttackEvent?.Invoke();
+        statusText.text = "Attacking!";
     }
 
     public void EnrageCheck()
