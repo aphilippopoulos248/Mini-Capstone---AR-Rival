@@ -13,6 +13,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
     [SerializeField] public TextMeshProUGUI playerJoinedDebug;
 
     public UnityEvent onPlayerJoinedEvent;
+    public UnityEvent onPlayerLeftEvent;
 
     //creating a singleton
     public static NetworkManager Instance { get; private set; }
@@ -56,6 +57,15 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         await Connect(roomCode);
     }
 
+    public async void LeaveSession()
+    {
+        if (Runner != null)
+        {
+            await Runner.Shutdown();
+            Runner = null;
+        }
+    }
+
     public void CreateRunner()
     {
         Runner = Instantiate(_runnerPrefab, transform).GetComponent<NetworkRunner>();
@@ -92,6 +102,8 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
     {
+        playerJoinedDebug.text += " Player ID: " + player.PlayerId + "has left\n";
+        onPlayerLeftEvent.Invoke();
     }
 
     public void OnInput(NetworkRunner runner, NetworkInput input)

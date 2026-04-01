@@ -2110,9 +2110,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -1.1776326, y: 0.75611866, z: 0.5844739}
+    m_Target: {x: 0.8032187, y: 0.86238, z: -0.29105684}
     speed: 2
-    m_Value: {x: 33.892048, y: 11.981881, z: 2.3781083}
+    m_Value: {x: -1.1776326, y: 0.75611866, z: 0.5844739}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2158,13 +2158,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.17659836, y: 0.73736364, z: -0.21108732, w: -0.6169262}
+    m_Target: {x: -0.22708419, y: 0.5046928, z: -0.13958898, w: -0.82115626}
     speed: 2
-    m_Value: {x: -0.11273512, y: 0.8733693, z: -0.24153373, w: -0.40764976}
+    m_Value: {x: -0.17659412, y: 0.737346, z: -0.21108226, w: -0.6169114}
   m_Size:
-    m_Target: 1.5687511
+    m_Target: 0.7514982
     speed: 2
-    m_Value: 4.1029224
+    m_Value: 1.5687511
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1421, y: 858.5}
+  m_TargetSize: {x: 947.3334, y: 572.3333}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2330,10 +2330,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -473.6667
-    m_HBaseRangeMax: 473.6667
-    m_VBaseRangeMin: -286.1667
-    m_VBaseRangeMax: 286.1667
+    m_HBaseRangeMin: -315.7778
+    m_HBaseRangeMax: 315.7778
+    m_VBaseRangeMin: -190.77777
+    m_VBaseRangeMax: 190.77777
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2366,7 +2366,7 @@ MonoBehaviour:
       width: 631.5556
       height: 381.55554
     m_MinimalGUI: 1
-  m_defaultScale: 0.9999999
+  m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1421, y: 890}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -2447,11 +2447,7 @@ MonoBehaviour:
       m_Data: 68920
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 64596
-    - m_Data: 64598
-    - m_Data: 64600
-    - m_Data: 64602
-    - m_Data: 64604
+    - m_Data: 133324
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2484,11 +2480,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 64596
-    - m_Data: 64598
-    - m_Data: 64600
-    - m_Data: 64602
-    - m_Data: 64604
+    - m_Data: 133324
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

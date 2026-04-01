@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
 
         networkManager = NetworkManager.Instance;
         networkManager.onPlayerJoinedEvent.AddListener(OnPlayerJoined);
+        networkManager.onPlayerLeftEvent.AddListener(OnPlayerLeft);
     }
 
     private void OnSuccessfulLocalizations()
@@ -48,6 +49,11 @@ public class GameManager : MonoBehaviour
             return;
 
         dragonSpawner.SpawnDragon();
+    }
+
+    private void OnPlayerLeft()
+    {
+        multiuserUI.SetActive(true);
     }
     private void Update()
     {
