@@ -367,6 +367,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7512784583129558687, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
   m_PrefabInstance: {fileID: 7512784582910460290}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &375917615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375917616}
+  - component: {fileID: 375917617}
+  m_Layer: 0
+  m_Name: TileCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &375917616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375917615}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2115276879}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &375917617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375917615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa13573d971f40649081b02ffc8366c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MapboxBaseModule::Mapbox.Example.Scripts.ModuleBehaviours.TileCreatorBehaviour
+  TileMaterials:
+  - {fileID: 0}
+  CacheSize: 25
 --- !u!1 &482478434
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1333,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105661835}
   m_CullTransparentMesh: 1
+--- !u!1 &1130452242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7512784584146348567, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
+  m_PrefabInstance: {fileID: 7512784582910460290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1142609686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,12 +1508,42 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7512784584146348565, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
   m_PrefabInstance: {fileID: 7512784582910460290}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1130452242}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8987c930e6fb0479a907044faef4ab26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1316629400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7512784584146348570, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
+  m_PrefabInstance: {fileID: 7512784582910460290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1316629405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130452242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf756ea8135153148834a96ccc26a203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CustomMapboxMapBehaviour
+  MapInformation:
+    _pitch: 90
+    _bearing: 0
+    _scale: 1
+    _latitudeLongitudeString: 60.1710235,24.9432024
+    _zoom: 16
+  UnityContext: {MapRoot: {fileID: 1316629400}, BaseTileRoot: {fileID: 0}, RuntimeGenerationRoot: {fileID: 0}}
+  _tileCreatorBehaviour: {fileID: 0}
+  TileProvider: {fileID: 1699001237}
+  DataFetcher: {fileID: 0}
+  CacheManager: {fileID: 0}
+  InitializeOnStart: 1
+  terrainMaterial: {fileID: 2100000, guid: a6a681001a245ce4089aea4634eee2b8, type: 2}
 --- !u!1 &1326738087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,6 +2221,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619590204}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1699001237 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 555719919710579637, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
+  m_PrefabInstance: {fileID: 7512784582910460290}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b76f2761e454a4687f320fa7524dde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1815118998
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,6 +2323,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815118998}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2115276879 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7512784584347686677, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
+  m_PrefabInstance: {fileID: 7512784582910460290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2117726497
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,6 +3451,10 @@ PrefabInstance:
       value: 43.4690663,-79.7000411
       objectReference: {fileID: 0}
     - target: {fileID: 7512784584146348565, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512784584146348565, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
       propertyPath: _tileCreatorBehaviour
       value: 
       objectReference: {fileID: 0}
@@ -3411,8 +3513,14 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7512784584146348569, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7512784584347686677, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 375917616}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7512784584146348567, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1316629405}
   m_SourcePrefab: {fileID: 100100000, guid: 5cfb21e958bce467e966040b1be49240, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
