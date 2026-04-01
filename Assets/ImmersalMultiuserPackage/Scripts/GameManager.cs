@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
     {
         multiuserUI.SetActive(true);
     }
+
     private void Update()
     {
         int q = immersalSDK.TrackingStatus?.TrackingQuality ?? 0;

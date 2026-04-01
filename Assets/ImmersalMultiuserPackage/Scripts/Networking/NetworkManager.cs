@@ -20,6 +20,8 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     public NetworkRunner Runner { get; private set; }
 
+    private bool isConnected = false;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -41,6 +43,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     public async void CreateSession(string roomCode)
     {
+        if (isConnected) return;
         //Create Runner
         CreateRunner();
 
@@ -50,6 +53,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     public async void JoinSession(string roomCode)
     {
+        if (isConnected) return;
         //Create Runner
         CreateRunner();
 
@@ -63,7 +67,9 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         {
             await Runner.Shutdown();
             Runner = null;
+            OnPlayerLeft(Runner, default);
         }
+        isConnected = false;
     }
 
     public void CreateRunner()
@@ -74,6 +80,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     private async Task Connect(string SessionName)
     {
+        isConnected = true;
         var args = new StartGameArgs()
         {
             GameMode = GameMode.Shared,
