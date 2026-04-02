@@ -8,11 +8,14 @@ public class BossCombat : BossBase
 {
     [SerializeField] private HealthComponent healthComponent;
     [SerializeField] private float tapDamage = 10f;
-    [SerializeField] private BehaviorGraphAgent agent;
+    [SerializeField] private float bossAtkDamage = 10f;
+    [SerializeField] private float bossSpAtkDamage = 20f;
+    [SerializeField] private float enragedDamageBoost = 1.5f;
+    [SerializeField] private float enragedHealthThreshold = 0.35f;
     [SerializeField] private TMP_Text statusText;
 
-    private float enragedHealthThreshold = 0.35f;
-
+    public BehaviorGraphAgent agent;
+    
     void Start()
     {
         if (agent == null)
@@ -23,6 +26,7 @@ public class BossCombat : BossBase
         DieEvent += () => { agent.SetVariableValue<bool>("isDead", true); };
         StunEvent += () => { agent.SetVariableValue<bool>("isStunned", true); };
         EnrageEvent += () => { agent.SetVariableValue<bool>("isEnraged", true); };
+        ResetStatus();
     }
 
     void OnEnable()
@@ -53,10 +57,28 @@ public class BossCombat : BossBase
         Debug.Log("Boss Current Health: " + healthComponent.CurrentHealth);
     }
 
-    public void Attack()
+    public void Attack(bool shouldSpAttack = false)
     {
+        float damage = shouldSpAttack ? bossSpAtkDamage : bossAtkDamage;
+        if (agent.GetVariable<bool>("isEnraged", out var shouldEnrage))
+        {
+            if (shouldEnrage)
+            {
+                damage *= enragedDamageBoost;
+            }
+        }
+
         AttackEvent?.Invoke();
-        statusText.text = "Attacking!";
+        statusText.text = shouldSpAttack ? "Special Attack!" : "Attack!";
+        GameManager.Instance.UpdatePlayerHealth(damage);
+    }
+
+    public void ResetStatus()
+    {
+        if (agent.GetVariable<bool>("isEnraged", out var shouldEnrage))
+        {
+            statusText.text = shouldEnrage ? "Enraged!" : "Active!";
+        }
     }
 
     public void EnrageCheck()
@@ -65,7 +87,7 @@ public class BossCombat : BossBase
         if (healthPercentage <= enragedHealthThreshold)
         {
             EnrageEvent?.Invoke();
-            statusText.text = "Enraged!";
+            ResetStatus();
         }
     }
 
@@ -74,9 +96,13 @@ public class BossCombat : BossBase
         if (healthComponent.CurrentHealth <= 0)
         {
             DieEvent?.Invoke();
-            statusText.text = "Defeated!";
             return true;
         }
         return false;
+    }
+
+    public void Die()
+    {
+        statusText.text = "Defeated!";
     }
 }

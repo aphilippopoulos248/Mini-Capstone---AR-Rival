@@ -8,7 +8,7 @@ using Unity.Properties;
 [NodeDescription(name: "Stun", story: "[Self] Stun", category: "Action", id: "5cdd5d39d609d765bccda63d2b1948ba")]
 public partial class StunAction : Action
 {
-    [SerializeReference] public BlackboardVariable<GameObject> Self;
+    [SerializeReference] public BlackboardVariable<BossCombat> Self;
 
     protected override Status OnStart()
     {

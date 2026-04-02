@@ -8,12 +8,28 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI debugText;
     [SerializeField] private GameObject multiuserUI;
     [SerializeField] private NetworkDragonSpawner dragonSpawner;
+    [SerializeField] private TMP_Text playerHealth;
+    [SerializeField] private float startHealth = 1000f;
 
     private ImmersalSDK immersalSDK;
     private NetworkManager networkManager;
     private Localizer localizer;
-
     private bool isSessionPaused;
+
+    public static GameManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+    }
 
     private void OnEnable()
     {
@@ -72,5 +88,11 @@ public class GameManager : MonoBehaviour
             isSessionPaused = false;
             debugText.text += "\n Localizer Resumed.";
         }
+    }
+
+    public void UpdatePlayerHealth(float damage)
+    {
+        float currentHealth = Mathf.Max(0, float.Parse(playerHealth.text) - damage);
+        playerHealth.text = $"{currentHealth}";
     }
 }

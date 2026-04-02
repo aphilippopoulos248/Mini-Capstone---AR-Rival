@@ -8,10 +8,11 @@ using Unity.Properties;
 [NodeDescription(name: "Die", story: "[Self] Die", category: "Action", id: "d8e68e8c0c1b96f5d64ed97404672bb3")]
 public partial class DieAction : Action
 {
-    [SerializeReference] public BlackboardVariable<GameObject> Self;
+    [SerializeReference] public BlackboardVariable<BossCombat> Self;
 
     protected override Status OnStart()
     {
+        Self.Value.Die();
         return Status.Running;
     }
 

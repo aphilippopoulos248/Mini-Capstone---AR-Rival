@@ -1,28 +1,48 @@
 using System;
+using Unity.AppUI.MVVM;
 using Unity.Behavior;
+using Unity.Properties;
 using UnityEngine;
 using Action = Unity.Behavior.Action;
-using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
 [NodeDescription(name: "Attack", story: "[Self] Attack", category: "Action", id: "ba6a2b07f7d71e3c2b2c985b35f8e677")]
 public partial class AttackAction : Action
 {
-    [SerializeReference] public BlackboardVariable<GameObject> Self;
+    [SerializeReference] public BlackboardVariable<BossCombat> Self;
+    float timer;
 
     protected override Status OnStart()
     {
-        
+        timer = 0;
+        Self.Value.Attack();
         return Status.Running;
     }
 
     protected override Status OnUpdate()
     {
+        if (
+            Self.Value.agent.GetVariable<bool>("isDead", out var shouldDie) &&
+            Self.Value.agent.GetVariable<bool>("isStunned", out var shouldStun) &&
+            (
+                shouldStun.Value == true ||
+                shouldDie.Value == true
+            )
+        )
+        {
+            return Status.Success;
+        }
+        if (timer < 1f)
+        {
+            timer += Time.deltaTime;
+            return Status.Running;
+        }
         return Status.Success;
     }
 
     protected override void OnEnd()
     {
+        Self.Value.ResetStatus();
     }
 }
 
