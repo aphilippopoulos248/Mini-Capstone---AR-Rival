@@ -2,19 +2,25 @@ using Immersal;
 using Immersal.XR;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI debugText;
     [SerializeField] private GameObject multiuserUI;
+    [SerializeField] private GameObject playerInfoUI;
     [SerializeField] private NetworkDragonSpawner dragonSpawner;
     [SerializeField] private TMP_Text playerHealth;
     [SerializeField] private float startHealth = 1000f;
+    [SerializeField] private float stunCoolDown = 5f;
 
     private ImmersalSDK immersalSDK;
     private NetworkManager networkManager;
     private Localizer localizer;
+    public Button stunButton;
     private bool isSessionPaused;
+    private bool isStunCooldown = false;
+    private float stunCounter = 0f;
 
     public static GameManager Instance { get; private set; }
 
@@ -46,6 +52,9 @@ public class GameManager : MonoBehaviour
         networkManager = NetworkManager.Instance;
         networkManager.onPlayerJoinedEvent.AddListener(OnPlayerJoined);
         networkManager.onPlayerLeftEvent.AddListener(OnPlayerLeft);
+
+        stunButton = playerInfoUI.GetComponentInChildren<Button>();
+        stunButton.onClick.AddListener(StartStunCooldown);
     }
 
     private void OnSuccessfulLocalizations()
@@ -56,6 +65,7 @@ public class GameManager : MonoBehaviour
     private void OnPlayerJoined()
     {
         multiuserUI.SetActive(false);
+        playerInfoUI.SetActive(true);
 
         // Preventing multiple instances of the enemy spawning each time a client joins
         var runner = NetworkManager.Instance.Runner;
@@ -71,6 +81,7 @@ public class GameManager : MonoBehaviour
     private void OnPlayerLeft()
     {
         multiuserUI.SetActive(true);
+        playerInfoUI.SetActive(false);
     }
 
     private void Update()
@@ -89,11 +100,28 @@ public class GameManager : MonoBehaviour
             isSessionPaused = false;
             debugText.text += "\n Localizer Resumed.";
         }
+
+        if (isStunCooldown)
+        {
+            stunCounter += Time.deltaTime;
+            if (stunCounter >= stunCoolDown)
+            {
+                stunButton.interactable = true;
+                isStunCooldown = false;
+                stunCounter = 0f;
+            }
+        }
     }
 
     public void UpdatePlayerHealth(float damage)
     {
         float currentHealth = Mathf.Max(0, float.Parse(playerHealth.text) - damage);
         playerHealth.text = $"{currentHealth}";
+    }
+
+    public void StartStunCooldown()
+    {
+        stunButton.interactable = false;
+        isStunCooldown = true;
     }
 }

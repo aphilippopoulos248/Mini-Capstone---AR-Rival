@@ -57,6 +57,7 @@
     <Compile Include="Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs" />
     <Compile Include="Assets/Behaviours/SpAttackAction.cs" />
     <Compile Include="Assets/Input/PlayerActions.cs" />
+    <Compile Include="Assets/FSM/EnemyFlameState.cs" />
     <Compile Include="Assets/Scripts/Health/IHealth.cs" />
     <Compile Include="Assets/ImmersalMultiuserPackage/Scripts/Networking/NetworkDragonSpawner.cs" />
     <Compile Include="Assets/Samples/Mapbox Unity SDK/3.0.7/LocationBasedGame/CharacterVisuals/CameraRotate.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Assets/Settings/Project Configuration/SceneTemplate_RotateCube.cs" />
     <Compile Include="Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs" />
     <Compile Include="Assets/Scripts/Boss/BossCombat.cs" />
+    <Compile Include="Assets/FSM/FSMBaseState.cs" />
     <Compile Include="Assets/ImmersalMultiuserPackage/Scripts/Networking/ConnectionManager.cs" />
     <Compile Include="Assets/Joystick Pack/Examples/JoystickPlayerExample.cs" />
     <Compile Include="Assets/Scripts/Boss/BossMap.cs" />
@@ -77,11 +79,15 @@
     <Compile Include="Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs" />
     <Compile Include="Assets/Scripts/Boss/IBoss.cs" />
     <Compile Include="Assets/Behaviours/DieAction.cs" />
+    <Compile Include="Assets/FSM/EnemyAttackState.cs" />
     <Compile Include="Assets/Samples/Mapbox Unity SDK/3.0.7/LocationBasedGame/Scripts/TransformBasedTileProviderBehaviour.cs" />
+    <Compile Include="Assets/FSM/EnemyStunState.cs" />
     <Compile Include="Assets/MobileARTemplateAssets/Scripts/GoalManager.cs" />
+    <Compile Include="Assets/FSM/EnemyDeadState.cs" />
     <Compile Include="Assets/Samples/Mapbox Unity SDK/3.0.7/LocationBasedGame/MapVisuals/PoiLabels/PoiLayerBasicBillboard.cs" />
     <Compile Include="Assets/Samples/Mapbox Unity SDK/3.0.7/LocationBasedGame/Scripts/FixedAreaTileProviderBehaviour.cs" />
     <Compile Include="Assets/Scripts/UI/LobbyOptionsUI.cs" />
+    <Compile Include="Assets/Scripts/Boss/EnemyController.cs" />
     <Compile Include="Assets/Samples/Mapbox Unity SDK/3.0.7/LocationBasedGame/Scripts/SnapTransformToLocationProvider.cs" />
     <Compile Include="Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs" />
     <Compile Include="Assets/Samples/Mapbox Unity SDK/3.0.7/LocationBasedGame/Scripts/SnapMapToLocationProvider.cs" />
@@ -90,6 +96,7 @@
     <Compile Include="Assets/Joystick Pack/Examples/JoystickSetterExample.cs" />
     <Compile Include="Assets/ImmersalMultiuserPackage/Scripts/DragonController.cs" />
     <Compile Include="Assets/Samples/Mapbox Unity SDK/3.0.7/LocationBasedGame/MapVisuals/PoiLabels/PoiLabelModifierObject.cs" />
+    <Compile Include="Assets/FSM/EnemyIdleState.cs" />
     <Compile Include="Assets/MobileARTemplateAssets/Scripts/ARPlaneMeshVisualizerFader.cs" />
   </ItemGroup>
   <ItemGroup>

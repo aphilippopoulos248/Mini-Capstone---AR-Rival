@@ -319,15 +319,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -582,8 +582,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Boss
   healthComponent: {fileID: 7130436255303402317}
   tapDamage: 10
-  agent: {fileID: 0}
+  bossAtkDamage: 10
+  bossSpAtkDamage: 20
+  attackCoolDown: 2
+  stunTimeSpan: 3
+  stunCoolDown: 5
+  enragedDamageBoost: 1.5
+  enragedCooldownReduction: 0.8
+  enragedHealthThreshold: 0.35
   statusText: {fileID: 2106327672413425190}
+  agent: {fileID: 0}
 --- !u!114 &6465534594754424687
 MonoBehaviour:
   m_ObjectHideFlags: 0

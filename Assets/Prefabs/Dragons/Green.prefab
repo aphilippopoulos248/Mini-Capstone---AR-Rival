@@ -2494,6 +2494,8 @@ GameObject:
   - component: {fileID: 5954522379189644281}
   - component: {fileID: 2281863168669258756}
   - component: {fileID: 4440388582692643409}
+  - component: {fileID: 4660529564064567754}
+  - component: {fileID: 498103586053075651}
   m_Layer: 0
   m_Name: Green
   m_TagString: Untagged
@@ -2511,7 +2513,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0, z: 0}
-  m_LocalScale: {x: 0.018, y: 0.018, z: 0.018}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4989197156169754870}
@@ -2528,7 +2530,7 @@ Animator:
   m_GameObject: {fileID: 5252975553637722278}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 79b50b34e44b5fd4db1cdc9535a3c86b, type: 3}
-  m_Controller: {fileID: 9100000, guid: 5bd61d42e42f44b4a922495212e06f3f, type: 2}
+  m_Controller: {fileID: 9100000, guid: c642d2295ecc44026a2d0b5cda6cc78a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2629,9 +2631,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d482ed62bf33d4fbe1d4bbf3029f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthComponent
-  maxHealth: 100
+  maxHealth: 1000
   healthBar: {fileID: 0}
   _Health: 0
+--- !u!136 &4660529564064567754
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252975553637722278}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.9349756
+  m_Height: 7.8699512
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 1.9413235}
+--- !u!114 &498103586053075651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252975553637722278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20429749133f54344af63f428e5ebdcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
+  tapDamage: 10
+  attackCoolDown: 2
+  stunTimeSpan: 3
 --- !u!1 &5312883881388978718
 GameObject:
   m_ObjectHideFlags: 0

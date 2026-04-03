@@ -304,6 +304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   debugText: {fileID: 1134692850}
   multiuserUI: {fileID: 186010016}
+  playerInfoUI: {fileID: 709726855}
   dragonSpawner: {fileID: 1101009147}
   playerHealth: {fileID: 2119029277}
   startHealth: 1000
@@ -1922,6 +1923,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &709726855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2477298286868509341, guid: af899c4dc8ef22049ac0082a85e15c28, type: 3}
+  m_PrefabInstance: {fileID: 2119029275}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1101009144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +1996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NetworkDragonSpawner
   dragons:
   - {fileID: 8705998063909040526, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+  - {fileID: 7834892487464022543, guid: 5dff46cf7c991e943b24831ef9806ae8, type: 3}
   dragonController: {fileID: 1101009148}
   arRaycastManager: {fileID: 1103621715}
 --- !u!114 &1101009148
@@ -2756,6 +2763,18 @@ PrefabInstance:
     - target: {fileID: 5672747264397647280, guid: af899c4dc8ef22049ac0082a85e15c28, type: 3}
       propertyPath: m_Name
       value: DebugUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785203661042581312, guid: af899c4dc8ef22049ac0082a85e15c28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785203661042581312, guid: af899c4dc8ef22049ac0082a85e15c28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785203661042581312, guid: af899c4dc8ef22049ac0082a85e15c28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

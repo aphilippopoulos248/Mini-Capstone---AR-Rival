@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Unity.Behavior;
 using TMPro;
+using UnityEngine.UI;
 
 public class BossCombat : BossBase
 {
@@ -10,7 +11,8 @@ public class BossCombat : BossBase
     [SerializeField] private float tapDamage = 10f;
     [SerializeField] private float bossAtkDamage = 10f;
     [SerializeField] private float bossSpAtkDamage = 20f;
-    [SerializeField] private float coolDown = 2f;
+    [SerializeField] private float attackCoolDown = 2f;
+    [SerializeField] private float stunTimeSpan = 3f;
     [SerializeField] private float enragedDamageBoost = 1.5f;
     [SerializeField] private float enragedCooldownReduction = 0.8f;
     [SerializeField] private float enragedHealthThreshold = 0.35f;
@@ -25,6 +27,7 @@ public class BossCombat : BossBase
             agent = GetComponent<BehaviorGraphAgent>();
         }
 
+        GameManager.Instance.stunButton.onClick.AddListener(OnStunBtnClick);
         DieEvent += () => { agent.SetVariableValue<bool>("isDead", true); };
         StunEvent += () => { agent.SetVariableValue<bool>("isStunned", true); };
         EnrageEvent += () => { agent.SetVariableValue<bool>("isEnraged", true); };
@@ -75,6 +78,11 @@ public class BossCombat : BossBase
         GameManager.Instance.UpdatePlayerHealth(damage);
     }
 
+    public void OnStunBtnClick()
+    {
+        StunEvent?.Invoke();
+    }
+
     public void ResetStatus()
     {
         if (agent.GetVariable<bool>("isEnraged", out var shouldEnrage))
@@ -108,12 +116,26 @@ public class BossCombat : BossBase
         statusText.text = "Defeated!";
     }
 
+    public void Stun()
+    {
+        statusText.text = "Stunned!";
+    }
+
     public float GetCooldown()
     {
         if (agent.GetVariable<bool>("isEnraged", out var shouldEnrage))
         {
-            return shouldEnrage ? coolDown * enragedCooldownReduction : coolDown;
+            return shouldEnrage ? attackCoolDown * enragedCooldownReduction : attackCoolDown;
         }
-        return coolDown;
+        return attackCoolDown;
+    }
+
+    public float GetStunTimeSpan()
+    {
+        if (agent.GetVariable<bool>("isEnraged", out var shouldEnrage))
+        {
+            return shouldEnrage ? stunTimeSpan * enragedCooldownReduction : stunTimeSpan;
+        }
+        return stunTimeSpan;
     }
 }
