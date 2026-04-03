@@ -13,10 +13,12 @@ public class EnemyController : BossBase
     private Animator animator;
 
     [SerializeField] private float tapDamage = 10f;
-    [SerializeField] private float attackCoolDown = 2f;
     [SerializeField] private float enemySwipeDamage = 10f;
     [SerializeField] private float enemyFlameDamage = 5f;
+    public float attackCoolDown = 4f;
     public float stunTimeSpan = 3f;
+
+    public bool isAttacking = false;
     [SerializeField] private float enragedHealthThreshold = 0.5f;
 
     private void Start()
@@ -34,6 +36,18 @@ public class EnemyController : BossBase
         DieEvent += () => { animator.SetTrigger("Dead"); };
         StunEvent += () => { animator.SetBool("Stunned", true); };
         EnrageEvent += () => { animator.SetBool("Enraged", true); };
+    }
+
+    private void Update()
+    {
+        if (!animator.GetBool("Stunned") && !animator.GetBool("Dead"))
+        {
+            if (!isAttacking)
+            {
+                animator.SetTrigger("Attack");
+                isAttacking = true;
+            }
+        }
     }
 
     private void OnEnable()
@@ -77,14 +91,22 @@ public class EnemyController : BossBase
     {
         if (healthComponent.CurrentHealth <= 0)
         {
+            ResetStatus();
             DieEvent?.Invoke();
             return true;
         }
         return false;
     }
 
+    public void ResetStatus()
+    {
+        animator.SetBool("Stunned", false);
+        animator.ResetTrigger("Attack");
+    }
+
     public void OnStunBtnClick()
     {
+        ResetStatus();
         StunEvent?.Invoke();
     }
 

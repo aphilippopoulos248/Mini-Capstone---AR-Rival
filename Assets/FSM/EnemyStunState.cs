@@ -16,7 +16,7 @@ public class EnemyStunState : FSMBaseState
         }
         else
         {
-            animator.SetBool("isStunned", false);
+            animator.SetBool("Stunned", false);
         }
         base.OnStateUpdate(animator, stateInfo, layerIndex);
     }
