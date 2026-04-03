@@ -10,11 +10,14 @@ using Action = Unity.Behavior.Action;
 public partial class AttackAction : Action
 {
     [SerializeReference] public BlackboardVariable<BossCombat> Self;
-    float timer;
+    float cdTimer;
+    float animationTimer;
+    float animationDuration = 1.0f;
 
     protected override Status OnStart()
     {
-        timer = 0;
+        cdTimer = 0;
+        animationTimer = 0;
         Self.Value.Attack();
         return Status.Running;
     }
@@ -32,17 +35,28 @@ public partial class AttackAction : Action
         {
             return Status.Success;
         }
-        if (timer < 1f)
+        if (animationTimer < animationDuration)
         {
-            timer += Time.deltaTime;
+            animationTimer += Time.deltaTime;
             return Status.Running;
         }
-        return Status.Success;
+        else if (cdTimer < Self.Value.GetCooldown())
+        {
+            if (cdTimer == 0)
+            {
+                Self.Value.ResetStatus();
+            }
+            cdTimer += Time.deltaTime;
+            return Status.Running;
+        }
+        else
+        {        
+            return Status.Success;
+        }
     }
 
     protected override void OnEnd()
     {
-        Self.Value.ResetStatus();
     }
 }
 

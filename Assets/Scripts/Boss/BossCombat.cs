@@ -10,7 +10,9 @@ public class BossCombat : BossBase
     [SerializeField] private float tapDamage = 10f;
     [SerializeField] private float bossAtkDamage = 10f;
     [SerializeField] private float bossSpAtkDamage = 20f;
+    [SerializeField] private float coolDown = 2f;
     [SerializeField] private float enragedDamageBoost = 1.5f;
+    [SerializeField] private float enragedCooldownReduction = 0.8f;
     [SerializeField] private float enragedHealthThreshold = 0.35f;
     [SerializeField] private TMP_Text statusText;
 
@@ -104,5 +106,14 @@ public class BossCombat : BossBase
     public void Die()
     {
         statusText.text = "Defeated!";
+    }
+
+    public float GetCooldown()
+    {
+        if (agent.GetVariable<bool>("isEnraged", out var shouldEnrage))
+        {
+            return shouldEnrage ? coolDown * enragedCooldownReduction : coolDown;
+        }
+        return coolDown;
     }
 }

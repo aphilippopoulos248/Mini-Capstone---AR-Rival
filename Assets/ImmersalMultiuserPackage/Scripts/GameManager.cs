@@ -65,6 +65,7 @@ public class GameManager : MonoBehaviour
             return;
 
         dragonSpawner.SpawnDragon();
+        playerHealth.text = $"{startHealth}";
     }
 
     private void OnPlayerLeft()
