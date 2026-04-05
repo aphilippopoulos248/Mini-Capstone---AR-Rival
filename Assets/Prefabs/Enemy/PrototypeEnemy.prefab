@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1103692629179659084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5721675264586711426}
+  - component: {fileID: 5351342165689871099}
+  m_Layer: 0
+  m_Name: AIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5721675264586711426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103692629179659084}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8330036089020033844}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5351342165689871099
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103692629179659084}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c642d2295ecc44026a2d0b5cda6cc78a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8620271082514391238
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,7 +429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       propertyPath: m_Name
-      value: PrototypeBoss
+      value: PrototypeEnemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -383,6 +437,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8385667922862803766}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5721675264586711426}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       insertIndex: -1
@@ -405,9 +462,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1099643608746048924}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6465534594754424687}
   m_SourcePrefab: {fileID: 100100000, guid: e1e5a5e5cafec2c4eb55a2a333bb49f6, type: 3}
 --- !u!4 &8330036089020033844 stripped
 Transform:
@@ -591,34 +645,3 @@ MonoBehaviour:
   enragedHealthThreshold: 0.35
   statusText: {fileID: 2106327672413425190}
   agent: {fileID: 0}
---- !u!114 &6465534594754424687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8705998063909040526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.BehaviorGraphAgent
-  ShowTopMostFoldoutHeaderGroup: 1
-  m_Graph: {fileID: -5840993480482685857, guid: 49c704bc4ca3641fab7966fd039edb53, type: 2}
-  m_BlackboardVariableOverridesList:
-  - rid: 2745756049326998340
-  m_OriginalGraph: {fileID: 0}
-  m_IsInitialised: 0
-  m_IsStarted: 0
-  NetcodeRunOnlyOnOwner: 0
-  references:
-    version: 2
-    RefIds:
-    - rid: 2745756049326998340
-      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 1
-          m_Value1: 0
-        Name: Self
-        m_Value: {fileID: 8705998063909040526}

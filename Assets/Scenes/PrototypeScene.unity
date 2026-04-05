@@ -308,6 +308,8 @@ MonoBehaviour:
   dragonSpawner: {fileID: 1101009147}
   playerHealth: {fileID: 2119029277}
   startHealth: 1000
+  stunCoolDown: 5
+  stunButton: {fileID: 0}
 --- !u!43 &145474718
 Mesh:
   m_ObjectHideFlags: 0
