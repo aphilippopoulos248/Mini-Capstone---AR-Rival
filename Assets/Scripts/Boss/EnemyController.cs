@@ -15,7 +15,7 @@ public class EnemyController : BossBase
     [SerializeField] private float tapDamage = 10f;
     [SerializeField] private float enemySwipeDamage = 10f;
     [SerializeField] private float enemyFlameDamage = 5f;
-    public float attackCoolDown = 4f;
+    public float attackCoolDown = 2f;
     public float stunTimeSpan = 3f;
 
     public bool isAttacking = false;
@@ -45,7 +45,6 @@ public class EnemyController : BossBase
             if (!isAttacking)
             {
                 animator.SetTrigger("Attack");
-                isAttacking = true;
             }
         }
     }

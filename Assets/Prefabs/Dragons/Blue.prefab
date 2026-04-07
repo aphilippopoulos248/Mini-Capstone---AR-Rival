@@ -2552,9 +2552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967de6b472e98d741929ed7c0963a77c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnBehaviour
-  tapDamage: 10
-  attackCoolDown: 2
-  stunTimeSpan: 3
 --- !u!114 &5255318586590788608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2605,6 +2602,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20429749133f54344af63f428e5ebdcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  tapDamage: 10
+  enemySwipeDamage: 10
+  enemyFlameDamage: 5
+  attackCoolDown: 4
+  stunTimeSpan: 3
+  isAttacking: 0
+  enragedHealthThreshold: 0.5
 --- !u!1 &7885589258524673988
 GameObject:
   m_ObjectHideFlags: 0
