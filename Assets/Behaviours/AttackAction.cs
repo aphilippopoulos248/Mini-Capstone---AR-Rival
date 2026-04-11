@@ -66,7 +66,10 @@ public partial class AttackAction : Action
 
     protected override void OnEnd()
     {
-
+        if (animator != null)
+        {
+            animator.SetBool(ANIM_ATTACK, false);
+        }
     }
 }
 

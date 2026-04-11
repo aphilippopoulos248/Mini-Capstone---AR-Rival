@@ -9,15 +9,25 @@ using Unity.Properties;
 public partial class SpAttackAction : Action
 {
     [SerializeReference] public BlackboardVariable<BossCombat> Self;
+    [SerializeReference] public BlackboardVariable<float> AnimationDuration;
+    private Animator animator;
+    private readonly int ANIM_ATTACK = Animator.StringToHash("Attacking");
+    private readonly int ANIM_ENRAGED = Animator.StringToHash("Enraged");
+
     float cdTimer;
     float animationTimer;
-    float animationDuration = 1.0f;
 
     protected override Status OnStart()
     {
         cdTimer = 0;
         animationTimer = 0;
         Self.Value.Attack(true);
+        animator = Self.Value.GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetBool(ANIM_ATTACK, true);
+            animator.SetBool(ANIM_ENRAGED, true);
+        }
         return Status.Running;
     }
 
@@ -34,13 +44,15 @@ public partial class SpAttackAction : Action
         {
             return Status.Success;
         }
-        if (animationTimer < animationDuration)
+        if (animationTimer < AnimationDuration)
         {
             animationTimer += Time.deltaTime;
             return Status.Running;
         }
         else if (cdTimer < Self.Value.GetCooldown())
         {
+            animator.SetBool(ANIM_ATTACK, false);
+            animator.SetBool(ANIM_ENRAGED, false);
             if (cdTimer == 0)
             {
                 Self.Value.ResetStatus();
@@ -56,5 +68,11 @@ public partial class SpAttackAction : Action
 
     protected override void OnEnd()
     {
+        animator = Self.Value.GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetBool(ANIM_ATTACK, false);
+            animator.SetBool(ANIM_ENRAGED, false);
+        }
     }
 }

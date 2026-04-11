@@ -85,6 +85,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\ImmersalMultiuserPackage\Scripts\Networking\NetworkManager.cs" />
     <Compile Include="Assets\Samples\Mapbox Unity SDK\3.0.7\LocationBasedGame\MapVisuals\PoiLabels\PoiLabelModifier.cs" />
+    <Compile Include="Assets\Behaviours\IsBossEnragedCondition.cs" />
     <Compile Include="Assets\Behaviours\StunAction.cs" />
     <Compile Include="Assets\Behaviours\AttackAction.cs" />
     <Compile Include="Assets\Samples\Mapbox Unity SDK\3.0.7\LocationBasedGame\CharacterVisuals\Astronaut\CharacterMovement.cs" />
