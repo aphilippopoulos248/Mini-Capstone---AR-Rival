@@ -25,7 +25,9 @@ public partial class AttackAction : Action
         animator = Self.Value.GetComponent<Animator>();
         if (animator != null)
         {
-            animator.SetBool(ANIM_ATTACK, true);
+            animator.SetTrigger(ANIM_ATTACK);
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(ANIM_ATTACK);
+            animationDuration = stateInfo.length;
         }
         return Status.Running;
     }
