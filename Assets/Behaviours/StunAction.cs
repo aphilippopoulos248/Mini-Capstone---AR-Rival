@@ -9,12 +9,20 @@ using Unity.Properties;
 public partial class StunAction : Action
 {
     [SerializeReference] public BlackboardVariable<BossCombat> Self;
+    private Animator animator;
+    private readonly int ANIM_STUNNED = Animator.StringToHash("Stunned");
+
     float timer;
 
     protected override Status OnStart()
     {
         timer = 0;
         Self.Value.Stun();
+        animator = Self.Value.GetComponent<Animator>();
+        if (animator != null)        
+        {
+            animator.SetBool(ANIM_STUNNED, true);
+        }
         return Status.Running;
     }
 
@@ -40,6 +48,10 @@ public partial class StunAction : Action
     protected override void OnEnd()
     {
         Self.Value.agent.SetVariableValue<bool>("isStunned", false);
+        if (animator != null)
+        {
+            animator.SetBool(ANIM_STUNNED, false);
+        }
         Self.Value.ResetStatus();
     }
 }

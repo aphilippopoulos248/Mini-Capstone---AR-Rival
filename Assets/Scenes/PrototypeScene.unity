@@ -2109,7 +2109,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NetworkDragonSpawner
   dragons:
   - {fileID: 4893878536010249155, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-  - {fileID: 7834892487464022543, guid: 5dff46cf7c991e943b24831ef9806ae8, type: 3}
   dragonController: {fileID: 1101009148}
   arRaycastManager: {fileID: 1103621715}
 --- !u!114 &1101009148
@@ -2919,71 +2918,6 @@ MonoBehaviour:
   m_UseConfidence: 0
   m_ConfidenceMax: 50
   m_ConfidenceImpact: 0.5
---- !u!1001 &2092635918
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4573060514203608094, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: SortKey
-      value: 3223501441
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893878536010249155, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_Name
-      value: Boss_MawJLaygo
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.23374318
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.000000031971382
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.5167037
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 5233565625128642937, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7098050076992597282, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
-      propertyPath: managedReferences[6319235512921227361].m_Value
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
 --- !u!1001 &2119029275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3157,4 +3091,3 @@ SceneRoots:
   - {fileID: 1183800679}
   - {fileID: 383454150}
   - {fileID: 1438646234}
-  - {fileID: 2092635918}
