@@ -9,19 +9,31 @@ using Unity.Properties;
 public partial class DieAction : Action
 {
     [SerializeReference] public BlackboardVariable<BossCombat> Self;
+    private Animator animator;
+    private readonly int ANIM_DIE = Animator.StringToHash("Dead");
 
     protected override Status OnStart()
     {
         Self.Value.Die();
+        animator = Self.Value.GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetTrigger(ANIM_DIE);
+        }
         return Status.Running;
     }
 
     protected override Status OnUpdate()
     {
-        return Status.Success;
+        if (Self.Value.agent.GetVariable<bool>("isDead", out var shouldDie) == false)
+        {
+            return Status.Success;
+        }
+        return Status.Running;
     }
 
     protected override void OnEnd()
     {
+        Debug.Log("DieAction ended");
     }
 }
