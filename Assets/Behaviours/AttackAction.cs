@@ -10,6 +10,9 @@ using Action = Unity.Behavior.Action;
 public partial class AttackAction : Action
 {
     [SerializeReference] public BlackboardVariable<BossCombat> Self;
+    private Animator animator;
+    private readonly int ANIM_ATTACK = Animator.StringToHash("Attack");
+
     float cdTimer;
     float animationTimer;
     float animationDuration = 1.0f;
@@ -19,6 +22,11 @@ public partial class AttackAction : Action
         cdTimer = 0;
         animationTimer = 0;
         Self.Value.Attack();
+        animator = Self.Value.GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetBool(ANIM_ATTACK, true);
+        }
         return Status.Running;
     }
 
