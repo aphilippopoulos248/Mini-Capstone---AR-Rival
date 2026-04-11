@@ -10,12 +10,12 @@ using Action = Unity.Behavior.Action;
 public partial class AttackAction : Action
 {
     [SerializeReference] public BlackboardVariable<BossCombat> Self;
+    [SerializeReference] public BlackboardVariable<float> AnimationDuration;
     private Animator animator;
-    private readonly int ANIM_ATTACK = Animator.StringToHash("Attack");
+    private readonly int ANIM_ATTACK = Animator.StringToHash("Attacking");
 
     float cdTimer;
     float animationTimer;
-    float animationDuration = 1.0f;
 
     protected override Status OnStart()
     {
@@ -25,9 +25,7 @@ public partial class AttackAction : Action
         animator = Self.Value.GetComponent<Animator>();
         if (animator != null)
         {
-            animator.SetTrigger(ANIM_ATTACK);
-            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(ANIM_ATTACK);
-            animationDuration = stateInfo.length;
+            animator.SetBool(ANIM_ATTACK, true);
         }
         return Status.Running;
     }
@@ -45,13 +43,14 @@ public partial class AttackAction : Action
         {
             return Status.Success;
         }
-        if (animationTimer < animationDuration)
+        if (animationTimer < AnimationDuration)
         {
             animationTimer += Time.deltaTime;
             return Status.Running;
         }
         else if (cdTimer < Self.Value.GetCooldown())
         {
+            animator.SetBool(ANIM_ATTACK, false);
             if (cdTimer == 0)
             {
                 Self.Value.ResetStatus();
@@ -67,6 +66,7 @@ public partial class AttackAction : Action
 
     protected override void OnEnd()
     {
+
     }
 }
 
