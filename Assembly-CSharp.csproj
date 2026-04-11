@@ -78,6 +78,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Boss\BossCombat.cs" />
     <Compile Include="Assets\Scripts\UI\LobbyManager.cs" />
+    <Compile Include="Assets\Scripts\UI\ButtonHandler.cs" />
     <Compile Include="Assets\FSM\FSMBaseState.cs" />
     <Compile Include="Assets\ImmersalMultiuserPackage\Scripts\Networking\ConnectionManager.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
