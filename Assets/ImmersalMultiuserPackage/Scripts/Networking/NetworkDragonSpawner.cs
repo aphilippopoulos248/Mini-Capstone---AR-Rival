@@ -75,8 +75,6 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
             dragonController.Rigidbody = networkDragonObject.GetComponent<Rigidbody>();
 
-            Debug.Log(bossToSpawn.name + " spawned at position: " + spawnPosition);
-
             _spawnedDragon.Add(player, new EnemyPair(networkDragonObject, networkEnemyObject));
         }
     }
