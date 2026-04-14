@@ -2417,6 +2417,60 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: cafe569c1f858c64eb2dbf37ea61a617, type: 2}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: 'managedReferences[6319235512921227932]'
+      value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[System.Single,
+        mscorlib]]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: 'managedReferences[6319235512921227933]'
+      value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[System.Single,
+        mscorlib]]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227932].Name
+      value: Attack Animation Duration
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227933].Name
+      value: Special Attack Animation Duration
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: m_BlackboardVariableOverridesList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227932].m_Value
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227933].m_Value
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: 'm_BlackboardVariableOverridesList.Array.data[1]'
+      value: 6319235512921227932
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: 'm_BlackboardVariableOverridesList.Array.data[2]'
+      value: 6319235512921227933
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227932].GUID.m_Value0
+      value: 17853882368477379217
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227932].GUID.m_Value1
+      value: 3527379952013107242
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227933].GUID.m_Value0
+      value: 12590315031675625691
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227933].GUID.m_Value1
+      value: 2524351041495564787
+      objectReference: {fileID: 0}
     - target: {fileID: 8330036089020033844, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
