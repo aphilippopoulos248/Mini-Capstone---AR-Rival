@@ -59,23 +59,24 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
             //TODO: Adjust position
             GameObject bossToSpawn = GameManager.Instance.SelectedBossName != null ? GameManager.Instance.GetSelectedBossPrefab() : dragons[0];
-            NetworkObject networkEnemyObject = NetworkManager.Instance.Runner.Spawn(
+            bossToSpawn.transform.localScale *= 1.5f; 
+            NetworkObject networkBossObject = NetworkManager.Instance.Runner.Spawn(
                                     bossToSpawn,
                                     spawnPosition * 1.2f, // spawn the enemy slightly closer to the player than the dragon
                                     spawnRotation,
                                     NetworkManager.Instance.Runner.LocalPlayer,
                                     InitializeObjBeforeSpawn);
 
-            NetworkObject networkDragonObject = NetworkManager.Instance.Runner.Spawn(
+            NetworkObject networkEnemyObject = NetworkManager.Instance.Runner.Spawn(
                                                 dragons[UnityEngine.Random.Range(1, dragons.Count)],
                                                 spawnPosition,
                                                 spawnRotation,
                                                 NetworkManager.Instance.Runner.LocalPlayer,
                                                 InitializeObjBeforeSpawn);
 
-            dragonController.Rigidbody = networkDragonObject.GetComponent<Rigidbody>();
+            dragonController.Rigidbody = networkEnemyObject.GetComponent<Rigidbody>();
 
-            _spawnedDragon.Add(player, new EnemyPair(networkDragonObject, networkEnemyObject));
+            _spawnedDragon.Add(player, new EnemyPair(networkEnemyObject, networkBossObject));
         }
     }
     private Vector3 GetForwardGroundPosition()
