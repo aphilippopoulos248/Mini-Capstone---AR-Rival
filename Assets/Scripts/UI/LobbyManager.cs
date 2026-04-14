@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 
 public class LobbyManager : MonoBehaviour
@@ -6,8 +7,6 @@ public class LobbyManager : MonoBehaviour
     [SerializeField] private GameObject lobbySessionUIPrefab;
     [SerializeField] private GameObject lobbyManagerCanvas;
     [SerializeField] private Transform lobbyGridParent;
-
-    private List<string> roomCodes = new List<string>();
 
     public static LobbyManager Instance { get; private set; }
 
@@ -23,12 +22,6 @@ public class LobbyManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void AddRoomCode(string roomCode)
-    {
-        if (string.IsNullOrWhiteSpace(roomCode)) return;
-        roomCodes.Add(roomCode);
-    }
-
     public void DisplayLobbies()
     {
         lobbyManagerCanvas.SetActive(true);
@@ -38,10 +31,10 @@ public class LobbyManager : MonoBehaviour
             Destroy(lobbyGridParent.GetChild(i).gameObject);
         }
 
-        foreach (string roomCode in roomCodes)
+        foreach (string roomName in NetworkManager.Instance.ActiveRooms)
         {
             GameObject lobbySession = Instantiate(lobbySessionUIPrefab, lobbyGridParent);
-            lobbySession.GetComponent<LobbySessionUI>().Initialize(roomCode);
+            lobbySession.GetComponent<LobbySessionUI>().Initialize(roomName);
         }
     }
 

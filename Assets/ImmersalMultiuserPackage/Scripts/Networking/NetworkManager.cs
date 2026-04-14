@@ -20,6 +20,8 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     public NetworkRunner Runner { get; private set; }
 
+    public List<string> ActiveRooms = new List<string>();
+
     private bool isConnected = false;
 
     private void Awake()
@@ -59,6 +61,12 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
         //ConnectSession
         await Connect(roomCode);
+    }
+
+    public async void JoinLobby()
+    {
+        if (!Runner) CreateRunner();
+        await Runner.JoinSessionLobby(SessionLobby.Shared);
     }
 
     public async void LeaveSession()
@@ -143,6 +151,15 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnSessionListUpdated(NetworkRunner runner, List<SessionInfo> sessionList)
     {
+        ActiveRooms.Clear();
+    
+        foreach (var session in sessionList) {
+            string roomName = $"Room: {session.Name} ({session.PlayerCount}/{session.MaxPlayers})";
+            Debug.Log(roomName);
+            ActiveRooms.Add(roomName);
+        }
+
+        LobbyManager.Instance.DisplayLobbies();
     }
 
     public void OnCustomAuthenticationResponse(NetworkRunner runner, Dictionary<string, object> data)

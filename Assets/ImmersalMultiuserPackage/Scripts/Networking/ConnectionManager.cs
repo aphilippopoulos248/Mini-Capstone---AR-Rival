@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 
@@ -11,13 +12,11 @@ public class ConnectionManager : MonoBehaviour
     public void CreateRoom()
     {
         NetworkManager.Instance.CreateSession(inputField.text);
-        LobbyManager.Instance.AddRoomCode(inputField.text);
     }
 
     public void JoinRoom()
     {
-        //NetworkManager.Instance.JoinSession(inputField.text);
-        multiUserUI.SetActive(false); // for testing, will move this to a ui manager later
-        LobbyManager.Instance.DisplayLobbies();
+        multiUserUI.SetActive(false);
+        NetworkManager.Instance.JoinLobby();
     }
 }

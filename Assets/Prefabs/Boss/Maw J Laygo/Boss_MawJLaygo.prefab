@@ -2354,6 +2354,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8620271082514391238, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8705998063909040526, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
       propertyPath: m_Name
       value: Boss_MawJLaygo

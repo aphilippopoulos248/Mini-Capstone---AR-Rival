@@ -1674,6 +1674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MultiuserUI
       objectReference: {fileID: 0}
+    - target: {fileID: 3425928120317857122, guid: 0faea0357f1c7134d9138a4944e4c85b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5943267594920338801, guid: 0faea0357f1c7134d9138a4944e4c85b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2039,7 +2043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LobbyManager
   lobbySessionUIPrefab: {fileID: 500091451145285253, guid: 8742c1fb059b87f438cee5a760ee6cc8, type: 3}
-  lobbyManagerCanvas: {fileID: 596796777}
+  lobbyManagerCanvas: {fileID: 1963921322}
   lobbyGridParent: {fileID: 596796778}
 --- !u!1 &1101009144
 GameObject:
@@ -2080,6 +2084,7 @@ MonoBehaviour:
   onPlayerLeftEvent:
     m_PersistentCalls:
       m_Calls: []
+  ActiveRooms: []
 --- !u!4 &1101009146
 Transform:
   m_ObjectHideFlags: 0
