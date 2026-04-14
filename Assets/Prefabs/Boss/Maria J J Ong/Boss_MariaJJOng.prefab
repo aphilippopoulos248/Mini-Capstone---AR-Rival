@@ -2405,6 +2405,14 @@ PrefabInstance:
       propertyPath: SortKey
       value: 588553852
       objectReference: {fileID: 0}
+    - target: {fileID: 4204241316403153254, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: fba0576f46720aa4dbd53faaccf74e12, type: 3}
+    - target: {fileID: 4204241316403153254, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cafe569c1f858c64eb2dbf37ea61a617, type: 2}
     - target: {fileID: 8330036089020033844, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
