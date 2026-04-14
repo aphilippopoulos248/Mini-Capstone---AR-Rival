@@ -2776,6 +2776,72 @@ PrefabInstance:
       propertyPath: SortKey
       value: 2690611447
       objectReference: {fileID: 0}
+    - target: {fileID: 1099643608746048924, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1505093074637816732}
+    - target: {fileID: 4204241316403153254, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: dcb6ebb32f03c4f438689d1742e517d9, type: 3}
+    - target: {fileID: 4204241316403153254, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7ed99e6aed8c7be449f5b8989d8e3097, type: 2}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: 'managedReferences[6319235512921227930]'
+      value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[System.Single,
+        mscorlib]]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: 'managedReferences[6319235512921227931]'
+      value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[System.Single,
+        mscorlib]]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227930].Name
+      value: Attack Animation Duration
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227931].Name
+      value: Special Attack Animation Duration
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: m_BlackboardVariableOverridesList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227930].m_Value
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227931].m_Value
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: 'm_BlackboardVariableOverridesList.Array.data[1]'
+      value: 6319235512921227930
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: 'm_BlackboardVariableOverridesList.Array.data[2]'
+      value: 6319235512921227931
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227930].GUID.m_Value0
+      value: 17853882368477379217
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227930].GUID.m_Value1
+      value: 3527379952013107242
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227931].GUID.m_Value0
+      value: 12590315031675625691
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: managedReferences[6319235512921227931].GUID.m_Value1
+      value: 2524351041495564787
+      objectReference: {fileID: 0}
     - target: {fileID: 8330036089020033844, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2834,6 +2900,17 @@ PrefabInstance:
       addedObject: {fileID: 48506689520577526}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+--- !u!114 &1505093074637816732 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+  m_PrefabInstance: {fileID: 5573516078902291699}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.BehaviorGraphAgent
 --- !u!4 &4522494633038514119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8330036089020033844, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}

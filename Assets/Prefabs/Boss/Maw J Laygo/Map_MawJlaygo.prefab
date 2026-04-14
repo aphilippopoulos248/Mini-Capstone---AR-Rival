@@ -2213,7 +2213,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 635942371515480907, guid: f93478f8c6f0ba34ab587807ea57ab55, type: 3}
       propertyPath: bossName
-      value: MawJLaygo
+      value: Maw
       objectReference: {fileID: 0}
     - target: {fileID: 2677492484056171129, guid: f93478f8c6f0ba34ab587807ea57ab55, type: 3}
       propertyPath: m_LocalPosition.x

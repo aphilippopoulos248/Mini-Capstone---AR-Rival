@@ -455,8 +455,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   bosses:
-  - name: MawJLaygo
+  - name: Maw
     prefab: {fileID: 4893878536010249155, guid: be129052620516b4ca1e9b106ce0b2f4, type: 3}
+  - name: Warrok
+    prefab: {fileID: 3857597259154677117, guid: 54bf400d9df5f10439dd979929492167, type: 3}
 --- !u!4 &1285220686
 Transform:
   m_ObjectHideFlags: 0
