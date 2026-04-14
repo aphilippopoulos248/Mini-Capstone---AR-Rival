@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class BossMap : BossBase
 {
+    [SerializeField] private string bossName;
     void OnEnable()
     {
         actions.Default.Attack.performed += OnTouch;
@@ -23,6 +24,8 @@ public class BossMap : BossBase
 
     public override void OnRaycastHit(RaycastHit hit)
     {
+        GameManager.Instance.SetSelectedBoss(bossName);
+
         SceneManager.LoadScene("PrototypeScene");
     }
 }

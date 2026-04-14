@@ -32,7 +32,7 @@ public class EnemyController : BossBase
             behaviour.Init(this, animator);
         }
 
-        GameManager.Instance.stunButton.onClick.AddListener(OnStunBtnClick);
+        SessionManager.Instance.stunButton.onClick.AddListener(OnStunBtnClick);
         DieEvent += () => { animator.SetTrigger("Dead"); };
         StunEvent += () => { animator.SetBool("Stunned", true); };
         EnrageEvent += () => { animator.SetBool("Enraged", true); };

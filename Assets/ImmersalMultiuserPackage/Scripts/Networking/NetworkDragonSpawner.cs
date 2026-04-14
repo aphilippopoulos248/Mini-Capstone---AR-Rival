@@ -34,6 +34,7 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
     private void Awake()
     {
+        Debug.Log("NetworkDragonSpawner Awake");
         if (m_XRSpace == null)
         {
             m_XRSpace = GameObject.FindObjectOfType<Immersal.XR.XRSpace>();
@@ -57,8 +58,9 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
             Quaternion spawnRotation = Quaternion.LookRotation(lookRotation) * Quaternion.Euler(0f, 180f, 0f);
 
             //TODO: Adjust position
+            GameObject bossToSpawn = GameManager.Instance.SelectedBossName != null ? GameManager.Instance.GetSelectedBossPrefab() : dragons[0];
             NetworkObject networkEnemyObject = NetworkManager.Instance.Runner.Spawn(
-                                    dragons[0],
+                                    bossToSpawn,
                                     spawnPosition * 1.2f, // spawn the enemy slightly closer to the player than the dragon
                                     spawnRotation,
                                     NetworkManager.Instance.Runner.LocalPlayer,
@@ -72,6 +74,8 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
                                                 InitializeObjBeforeSpawn);
 
             dragonController.Rigidbody = networkDragonObject.GetComponent<Rigidbody>();
+
+            Debug.Log(bossToSpawn.name + " spawned at position: " + spawnPosition);
 
             _spawnedDragon.Add(player, new EnemyPair(networkDragonObject, networkEnemyObject));
         }

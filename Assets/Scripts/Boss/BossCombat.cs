@@ -27,7 +27,7 @@ public class BossCombat : BossBase
             agent = GetComponent<BehaviorGraphAgent>();
         }
 
-        GameManager.Instance.stunButton.onClick.AddListener(OnStunBtnClick);
+        SessionManager.Instance.stunButton.onClick.AddListener(OnStunBtnClick);
         DieEvent += () => { agent.SetVariableValue<bool>("isDead", true); };
         StunEvent += () => { agent.SetVariableValue<bool>("isStunned", true); };
         EnrageEvent += () => { agent.SetVariableValue<bool>("isEnraged", true); };
@@ -75,7 +75,7 @@ public class BossCombat : BossBase
 
         AttackEvent?.Invoke();
         statusText.text = shouldSpAttack ? "Special Attack!" : "Attack!";
-        GameManager.Instance.UpdatePlayerHealth(damage);
+        SessionManager.Instance.UpdatePlayerHealth(damage);
     }
 
     public void OnStunBtnClick()

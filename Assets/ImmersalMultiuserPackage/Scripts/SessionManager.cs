@@ -1,10 +1,11 @@
 using Immersal;
 using Immersal.XR;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class SessionManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI debugText;
     [SerializeField] private GameObject multiuserUI;
@@ -22,7 +23,7 @@ public class GameManager : MonoBehaviour
     private bool isStunCooldown = false;
     private float stunCounter = 0f;
 
-    public static GameManager Instance { get; private set; }
+    public static SessionManager Instance { get; private set; }
 
     private void Awake()
     {
