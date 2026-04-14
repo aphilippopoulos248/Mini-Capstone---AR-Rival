@@ -25,6 +25,7 @@ public class BossMap : BossBase
     public override void OnRaycastHit(RaycastHit hit)
     {
         GameManager.Instance.SetSelectedBoss(bossName);
+        Debug.Log(bossName);
 
         SceneManager.LoadScene("PrototypeScene");
     }

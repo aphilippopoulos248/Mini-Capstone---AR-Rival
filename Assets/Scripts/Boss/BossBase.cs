@@ -30,7 +30,7 @@ public class BossBase : MonoBehaviour, IBoss
         {
             if (hit.collider.TryGetComponent<IBoss>(out IBoss boss))
             {
-                OnRaycastHit(hit);
+                boss.OnRaycastHit(hit);
             }
         }
     }
