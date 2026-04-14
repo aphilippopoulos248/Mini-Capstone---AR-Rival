@@ -2401,6 +2401,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 635942371515480907, guid: f93478f8c6f0ba34ab587807ea57ab55, type: 3}
+      propertyPath: bossName
+      value: Maria
+      objectReference: {fileID: 0}
     - target: {fileID: 2677492484056171129, guid: f93478f8c6f0ba34ab587807ea57ab55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2449,6 +2453,14 @@ PrefabInstance:
       propertyPath: SortKey
       value: 1611283455
       objectReference: {fileID: 0}
+    - target: {fileID: 7848104790988972075, guid: f93478f8c6f0ba34ab587807ea57ab55, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: fba0576f46720aa4dbd53faaccf74e12, type: 3}
+    - target: {fileID: 7848104790988972075, guid: f93478f8c6f0ba34ab587807ea57ab55, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cafe569c1f858c64eb2dbf37ea61a617, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3289849685122218904, guid: f93478f8c6f0ba34ab587807ea57ab55, type: 3}

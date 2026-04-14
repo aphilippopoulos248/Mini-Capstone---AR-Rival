@@ -2405,6 +2405,10 @@ PrefabInstance:
       propertyPath: SortKey
       value: 588553852
       objectReference: {fileID: 0}
+    - target: {fileID: 1099643608746048924, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 2258485374952167990}
     - target: {fileID: 4204241316403153254, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
       propertyPath: m_Avatar
       value: 
@@ -2474,6 +2478,17 @@ PrefabInstance:
       addedObject: {fileID: 2502635943696608942}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+--- !u!114 &2258485374952167990 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6465534594754424687, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+  m_PrefabInstance: {fileID: 5111006197975512409}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.BehaviorGraphAgent
 --- !u!4 &3852770926032543341 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8330036089020033844, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
