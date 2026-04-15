@@ -13,7 +13,10 @@ public class HealthComponent : NetworkBehaviour, IHealth
 
     public override void Spawned()
     {
-        Health = maxHealth;
+        if (Object.HasStateAuthority)
+        {
+            Health = maxHealth;
+        }
 
         if (healthBar == null)
             healthBar = GetComponentInChildren<HealthBar>();
@@ -21,11 +24,16 @@ public class HealthComponent : NetworkBehaviour, IHealth
         UpdateHealthBar();
     }
 
+    public override void Render()
+    {
+        UpdateHealthBar();
+    }
+
     public void TakeDamage(float damage, bool isDemo = false)
     {
         //// Only the State Authority should directly change networked state
-        //if (!Object.HasStateAuthority)
-        //    return;
+        if (!Object.HasStateAuthority)
+            return;
 
         Debug.Log("Damage taken: " + damage);
 
