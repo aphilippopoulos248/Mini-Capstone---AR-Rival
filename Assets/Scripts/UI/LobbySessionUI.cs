@@ -21,6 +21,6 @@ public class LobbySessionUI : MonoBehaviour
     private void JoinLobby()
     {
         NetworkManager.Instance.JoinSession(lobbyCode);
-        LobbyManager.Instance.HideLobbies();
+        //LobbyManager.Instance.HideLobbies();
     }
 }

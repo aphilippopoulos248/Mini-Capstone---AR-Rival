@@ -24,6 +24,9 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     private bool isConnected = false;
 
+    private string pendingJoinCode;
+    private bool shouldJoinAfterConnect = false;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -50,17 +53,24 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         CreateRunner();
 
         //ConnectSession
-        await Connect(roomCode);
+        await Connect(roomCode, true);
     }
 
     public async void JoinSession(string roomCode)
     {
         if (isConnected) return;
-        //Create Runner
+
+        pendingJoinCode = roomCode;
+        shouldJoinAfterConnect = true;
+
         CreateRunner();
 
-        //ConnectSession
-        await Connect(roomCode);
+        // Start a connection WITHOUT session name to avoid creating session
+        await Runner.StartGame(new StartGameArgs()
+        {
+            GameMode = GameMode.Shared,
+            SceneManager = GetComponent<NetworkSceneManagerDefault>(),
+        });
     }
 
     public async void JoinLobby()
@@ -86,16 +96,25 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         Runner.AddCallbacks(this);
     }
 
-    private async Task Connect(string SessionName)
+    private async Task Connect(string SessionName, bool createSesion)
     {
         isConnected = true;
+
         var args = new StartGameArgs()
         {
             GameMode = GameMode.Shared,
             SessionName = SessionName,
             SceneManager = GetComponent<NetworkSceneManagerDefault>(),
+            EnableClientSessionCreation = createSesion,
         };
-        await Runner.StartGame(args);
+
+        var result = await Runner.StartGame(args);
+
+        if (!result.Ok)
+        {
+            Debug.Log("Failed to start/join session: " + result.ShutdownReason);
+            isConnected = false;
+        }
     }
 
     #region INetworkRunnerCallbacks
@@ -129,8 +148,25 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
     {
     }
 
-    public void OnConnectedToServer(NetworkRunner runner)
+    public async void OnConnectedToServer(NetworkRunner runner)
     {
+        if (shouldJoinAfterConnect)
+        {
+            shouldJoinAfterConnect = false;
+
+            var result = await runner.StartGame(new StartGameArgs()
+            {
+                GameMode = GameMode.Shared,
+                SessionName = pendingJoinCode,
+                SceneManager = GetComponent<NetworkSceneManagerDefault>(),
+                EnableClientSessionCreation = false
+            });
+
+            if (!result.Ok)
+            {
+                Debug.LogError("Join failed: " + result.ShutdownReason);
+            }
+        }
     }
 
     public void OnDisconnectedFromServer(NetworkRunner runner)

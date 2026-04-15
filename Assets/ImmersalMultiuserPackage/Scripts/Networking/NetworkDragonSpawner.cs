@@ -59,7 +59,6 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
             //TODO: Adjust position
             GameObject bossToSpawn = GameManager.Instance.SelectedBossName != null ? GameManager.Instance.GetSelectedBossPrefab() : dragons[0];
-            bossToSpawn.transform.localScale *= 1.5f; 
             NetworkObject networkBossObject = NetworkManager.Instance.Runner.Spawn(
                                     bossToSpawn,
                                     spawnPosition * 1.2f, // spawn the enemy slightly closer to the player than the dragon
