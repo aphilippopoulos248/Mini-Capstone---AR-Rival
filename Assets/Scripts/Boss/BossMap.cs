@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.Management;
 
 public class BossMap : BossBase
 {
@@ -25,7 +26,6 @@ public class BossMap : BossBase
     public override void OnRaycastHit(RaycastHit hit)
     {
         GameManager.Instance.SetSelectedBoss(bossName);
-        Debug.Log(bossName);
 
         SceneManager.LoadScene("PrototypeScene");
     }
