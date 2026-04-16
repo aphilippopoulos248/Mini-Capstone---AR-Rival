@@ -2223,6 +2223,14 @@ PrefabInstance:
       propertyPath: agent
       value: 
       objectReference: {fileID: 7098050076992597282}
+    - target: {fileID: 1099643608746048924, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: bossAtkDamage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099643608746048924, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
+      propertyPath: bossSpAtkDamage
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 4204241316403153254, guid: e5d98d61c9fbb7447b23eba4fbe10560, type: 3}
       propertyPath: m_Avatar
       value: 
