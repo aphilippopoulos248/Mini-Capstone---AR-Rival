@@ -23,12 +23,14 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
     private struct EnemyPair
     {
         public NetworkObject boss;
-        public NetworkObject enemy;
+        public NetworkObject enemy1;
+        public NetworkObject enemy2;
 
-        public EnemyPair(NetworkObject _boss, NetworkObject _enemy)
+        public EnemyPair(NetworkObject _boss, NetworkObject _enemy1, NetworkObject _enemy2)
         {
             boss = _boss;
-            enemy = _enemy;
+            enemy1 = _enemy1;
+            enemy2 = _enemy2;
         }
     }
 
@@ -61,21 +63,28 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
             GameObject bossToSpawn = GameManager.Instance.SelectedBossName != null ? GameManager.Instance.GetSelectedBossPrefab() : dragons[0];
             NetworkObject networkBossObject = NetworkManager.Instance.Runner.Spawn(
                                     bossToSpawn,
-                                    spawnPosition * 1.2f, // spawn the enemy slightly closer to the player than the dragon
+                                    spawnPosition, // spawn the enemy slightly closer to the player than the dragon
                                     spawnRotation,
                                     NetworkManager.Instance.Runner.LocalPlayer,
                                     InitializeObjBeforeSpawn);
 
-            NetworkObject networkEnemyObject = NetworkManager.Instance.Runner.Spawn(
+            NetworkObject networkEnemyObject1 = NetworkManager.Instance.Runner.Spawn(
                                                 dragons[UnityEngine.Random.Range(1, dragons.Count)],
-                                                spawnPosition,
+                                                spawnPosition + new Vector3(1, 0, 0),
                                                 spawnRotation,
                                                 NetworkManager.Instance.Runner.LocalPlayer,
                                                 InitializeObjBeforeSpawn);
 
-            dragonController.Rigidbody = networkEnemyObject.GetComponent<Rigidbody>();
+            NetworkObject networkEnemyObject2 = NetworkManager.Instance.Runner.Spawn(
+                                    dragons[UnityEngine.Random.Range(1, dragons.Count)],
+                                    spawnPosition - new Vector3(1, 0, 0),
+                                    spawnRotation,
+                                    NetworkManager.Instance.Runner.LocalPlayer,
+                                    InitializeObjBeforeSpawn);
 
-            _spawnedDragon.Add(player, new EnemyPair(networkEnemyObject, networkBossObject));
+            dragonController.Rigidbody = networkEnemyObject1.GetComponent<Rigidbody>();
+
+            _spawnedDragon.Add(player, new EnemyPair(networkBossObject, networkEnemyObject1, networkEnemyObject2));
         }
     }
     private Vector3 GetForwardGroundPosition()
@@ -100,7 +109,8 @@ public class NetworkDragonSpawner : MonoBehaviour, INetworkRunnerCallbacks
         if (_spawnedDragon.TryGetValue(player, out EnemyPair enemies))
         {
             runner.Despawn(enemies.boss);
-            runner.Despawn(enemies.enemy);
+            runner.Despawn(enemies.enemy1);
+            runner.Despawn(enemies.enemy2);
             _spawnedDragon.Remove(player);
         }
     }
