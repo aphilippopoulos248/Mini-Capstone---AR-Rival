@@ -14,13 +14,15 @@ public class LobbySessionUI : MonoBehaviour
         lobbyCode = code;
         lobbyCodeText.text = code;
 
-        joinButton.onClick.RemoveAllListeners();
-        joinButton.onClick.AddListener(JoinLobby);
+        //joinButton.onClick.RemoveAllListeners();
+        //joinButton.onClick.AddListener(JoinLobby);
     }
 
-    private void JoinLobby()
+    public void JoinLobby()
     {
         NetworkManager.Instance.JoinSession(lobbyCode);
-        //LobbyManager.Instance.HideLobbies();
+        LobbyManager.Instance.HideLobbies();
+
+        LobbyManager.Instance.ShowLeaveLobbyBtn();
     }
 }

@@ -1,12 +1,16 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LobbyManager : MonoBehaviour
 {
     [SerializeField] private GameObject lobbySessionUIPrefab;
     [SerializeField] private GameObject lobbyManagerCanvas;
     [SerializeField] private Transform lobbyGridParent;
+
+    [SerializeField] private Button leaveLobbyBtn;
+    [SerializeField] private Button backToMapBtn;
 
     public static LobbyManager Instance { get; private set; }
 
@@ -41,5 +45,17 @@ public class LobbyManager : MonoBehaviour
     public void HideLobbies()
     {
         lobbyManagerCanvas.SetActive(false);
+    }
+
+    public void ShowLeaveLobbyBtn()
+    {
+        backToMapBtn.gameObject.SetActive(false);
+        leaveLobbyBtn.gameObject.SetActive(true);
+    }
+
+    public void ShowBackToMapBtn()
+    {
+        backToMapBtn.gameObject.SetActive(true);
+        leaveLobbyBtn.gameObject.SetActive(false);
     }
 }
